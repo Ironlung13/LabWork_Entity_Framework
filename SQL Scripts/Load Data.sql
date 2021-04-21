@@ -28,122 +28,122 @@ SET IDENTITY_INSERT production.categories OFF;
 
 SET IDENTITY_INSERT production.products ON;
 
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(1,'Trek 820 - 2016',9,6,2016,379.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(2,'Ritchey Timberwolf Frameset - 2016',5,6,2016,749.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(3,'Surly Wednesday Frameset - 2016',8,6,2016,999.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(4,'Trek Fuel EX 8 29 - 2016',9,6,2016,2899.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(5,'Heller Shagamaw Frame - 2016',3,6,2016,1320.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(6,'Surly Ice Cream Truck Frameset - 2016',8,6,2016,469.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(7,'Trek Slash 8 27.5 - 2016',9,6,2016,3999.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(8,'Trek Remedy 29 Carbon Frameset - 2016',9,6,2016,1799.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(9,'Trek Conduit+ - 2016',9,5,2016,2999.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(10,'Surly Straggler - 2016',8,4,2016,1549)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(11,'Surly Straggler 650b - 2016',8,4,2016,1680.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(12,'Electra Townie Original 21D - 2016',1,3,2016,549.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(13,'Electra Cruiser 1 (24-Inch) - 2016',1,3,2016,269.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(14,'Electra Girl''s Hawaii 1 (16-inch) - 2015/2016',1,3,2016,269.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(15,'Electra Moto 1 - 2016',1,3,2016,529.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(16,'Electra Townie Original 7D EQ - 2016',1,3,2016,599.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(17,'Pure Cycles Vine 8-Speed - 2016',4,3,2016,429)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(18,'Pure Cycles Western 3-Speed - Women''s - 2015/2016',4,3,2016,449)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(19,'Pure Cycles William 3-Speed - 2016',4,3,2016,449)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(20,'Electra Townie Original 7D EQ - Women''s - 2016',1,3,2016,599.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(21,'Electra Cruiser 1 (24-Inch) - 2016',1,1,2016,269.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(22,'Electra Girl''s Hawaii 1 (16-inch) - 2015/2016',1,1,2016,269.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(23,'Electra Girl''s Hawaii 1 (20-inch) - 2015/2016',1,1,2016,299.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(24,'Electra Townie Original 21D - 2016',1,2,2016,549.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(25,'Electra Townie Original 7D - 2015/2016',1,2,2016,499.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(26,'Electra Townie Original 7D EQ - 2016',1,2,2016,599.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(27,'Surly Big Dummy Frameset - 2017',8,6,2017,999.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(28,'Surly Karate Monkey 27.5+ Frameset - 2017',8,6,2017,2499.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(29,'Trek X-Caliber 8 - 2017',9,6,2017,999.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(30,'Surly Ice Cream Truck Frameset - 2017',8,6,2017,999.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(31,'Surly Wednesday - 2017',8,6,2017,1632.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(32,'Trek Farley Alloy Frameset - 2017',9,6,2017,469.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(33,'Surly Wednesday Frameset - 2017',8,6,2017,469.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(34,'Trek Session DH 27.5 Carbon Frameset - 2017',9,6,2017,469.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(35,'Sun Bicycles Spider 3i - 2017',7,6,2017,832.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(36,'Surly Troll Frameset - 2017',8,6,2017,832.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(37,'Haro Flightline One ST - 2017',2,6,2017,379.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(38,'Haro Flightline Two 26 Plus - 2017',2,6,2017,549.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(39,'Trek Stache 5 - 2017',9,6,2017,1499.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(40,'Trek Fuel EX 9.8 29 - 2017',9,6,2017,4999.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(41,'Haro Shift R3 - 2017',2,6,2017,1469.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(42,'Trek Fuel EX 5 27.5 Plus - 2017',9,6,2017,2299.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(43,'Trek Fuel EX 9.8 27.5 Plus - 2017',9,6,2017,5299.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(44,'Haro SR 1.1 - 2017',2,6,2017,539.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(45,'Haro SR 1.2 - 2017',2,6,2017,869.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(46,'Haro SR 1.3 - 2017',2,6,2017,1409.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(47,'Trek Remedy 9.8 - 2017',9,6,2017,5299.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(48,'Trek Emonda S 4 - 2017',9,7,2017,1499.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(49,'Trek Domane SL 6 - 2017',9,7,2017,3499.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(50,'Trek Silque SLR 7 Women''s - 2017',9,7,2017,5999.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(51,'Trek Silque SLR 8 Women''s - 2017',9,7,2017,6499.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(52,'Surly Steamroller - 2017',8,7,2017,875.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(53,'Surly Ogre Frameset - 2017',8,7,2017,749.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(54,'Trek Domane SL Disc Frameset - 2017',9,7,2017,3199.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(55,'Trek Domane S 6 - 2017',9,7,2017,2699.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(56,'Trek Domane SLR 6 Disc - 2017',9,7,2017,5499.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(57,'Trek Emonda S 5 - 2017',9,7,2017,1999.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(58,'Trek Madone 9.2 - 2017',9,7,2017,4999.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(59,'Trek Domane S 5 Disc - 2017',9,7,2017,2599.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(60,'Sun Bicycles ElectroLite - 2017',7,5,2017,1559.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(61,'Trek Powerfly 8 FS Plus - 2017',9,5,2017,4999.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(62,'Trek Boone 7 - 2017',9,4,2017,3499.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(63,'Trek Boone Race Shop Limited - 2017',9,4,2017,3499.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(64,'Electra Townie Original 7D - 2017',1,3,2017,489.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(65,'Sun Bicycles Lil Bolt Type-R - 2017',7,3,2017,346.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(66,'Sun Bicycles Revolutions 24 - 2017',7,3,2017,250.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(67,'Sun Bicycles Revolutions 24 - Girl''s - 2017',7,3,2017,250.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(68,'Sun Bicycles Cruz 3 - 2017',7,3,2017,449.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(69,'Sun Bicycles Cruz 7 - 2017',7,3,2017,416.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(70,'Electra Amsterdam Original 3i - 2015/2017',1,3,2017,659.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(71,'Sun Bicycles Atlas X-Type - 2017',7,3,2017,416.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(72,'Sun Bicycles Biscayne Tandem 7 - 2017',7,3,2017,619.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(73,'Sun Bicycles Brickell Tandem 7 - 2017',7,3,2017,749.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(74,'Electra Cruiser Lux 1 - 2017',1,3,2017,439.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(75,'Electra Cruiser Lux Fat Tire 1 Ladies - 2017',1,3,2017,599.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(76,'Electra Girl''s Hawaii 1 16" - 2017',1,3,2017,299.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(77,'Electra Glam Punk 3i Ladies'' - 2017',1,3,2017,799.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(78,'Sun Bicycles Biscayne Tandem CB - 2017',7,3,2017,647.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(79,'Sun Bicycles Boardwalk (24-inch Wheels) - 2017',7,3,2017,402.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(80,'Sun Bicycles Brickell Tandem CB - 2017',7,3,2017,761.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(81,'Electra Amsterdam Fashion 7i Ladies'' - 2017',1,3,2017,1099.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(82,'Electra Amsterdam Original 3i Ladies'' - 2017',1,3,2017,659.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(83,'Trek Boy''s Kickster - 2015/2017',9,1,2017,149.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(84,'Sun Bicycles Lil Kitt''n - 2017',7,1,2017,109.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(85,'Haro Downtown 16 - 2017',2,1,2017,329.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(86,'Trek Girl''s Kickster - 2017',9,1,2017,149.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(87,'Trek Precaliber 12 Boys - 2017',9,1,2017,189.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(88,'Trek Precaliber 12 Girls - 2017',9,1,2017,189.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(89,'Trek Precaliber 16 Boys - 2017',9,1,2017,209.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(90,'Trek Precaliber 16 Girls - 2017',9,1,2017,209.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(91,'Trek Precaliber 24 (21-Speed) - Girls - 2017',9,1,2017,349.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(92,'Haro Shredder 20 - 2017',2,1,2017,209.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(93,'Haro Shredder 20 Girls - 2017',2,1,2017,209.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(94,'Haro Shredder Pro 20 - 2017',2,1,2017,249.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(95,'Electra Girl''s Hawaii 1 16" - 2017',1,1,2017,299.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(96,'Electra Moto 3i (20-inch) - Boy''s - 2017',1,1,2017,349.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(97,'Electra Savannah 3i (20-inch) - Girl''s - 2017',1,1,2017,349.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(98,'Electra Straight 8 3i (20-inch) - Boy''s - 2017',1,1,2017,489.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(99,'Electra Sugar Skulls 1 (20-inch) - Girl''s - 2017',1,1,2017,299.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(100,'Electra Townie 3i EQ (20-inch) - Boys'' - 2017',1,1,2017,489.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(101,'Electra Townie 7D (20-inch) - Boys'' - 2017',1,1,2017,339.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(102,'Electra Townie Original 7D - 2017',1,2,2017,489.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(103,'Sun Bicycles Streamway 3 - 2017',7,2,2017,551.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(104,'Sun Bicycles Streamway - 2017',7,2,2017,481.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(105,'Sun Bicycles Streamway 7 - 2017',7,2,2017,533.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(106,'Sun Bicycles Cruz 3 - 2017',7,2,2017,449.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(107,'Sun Bicycles Cruz 7 - 2017',7,2,2017,416.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(108,'Sun Bicycles Cruz 3 - Women''s - 2017',7,2,2017,449.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(109,'Sun Bicycles Cruz 7 - Women''s - 2017',7,2,2017,416.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(110,'Sun Bicycles Drifter 7 - 2017',7,2,2017,470.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(111,'Sun Bicycles Drifter 7 - Women''s - 2017',7,2,2017,470.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(1,'Trek 820 - 2020',9,6,2020,379.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(2,'Ritchey Timberwolf Frameset - 2020',5,6,2020,749.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(3,'Surly Wednesday Frameset - 2020',8,6,2020,999.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(4,'Trek Fuel EX 8 29 - 2020',9,6,2020,2899.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(5,'Heller Shagamaw Frame - 2020',3,6,2020,1320.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(6,'Surly Ice Cream Truck Frameset - 2020',8,6,2020,469.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(7,'Trek Slash 8 27.5 - 2020',9,6,2020,3999.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(8,'Trek Remedy 29 Carbon Frameset - 2020',9,6,2020,1799.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(9,'Trek Conduit+ - 2020',9,5,2020,2999.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(10,'Surly Straggler - 2020',8,4,2020,1549)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(11,'Surly Straggler 650b - 2020',8,4,2020,1680.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(12,'Electra Townie Original 21D - 2020',1,3,2020,549.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(13,'Electra Cruiser 1 (24-Inch) - 2020',1,3,2020,269.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(14,'Electra Girl''s Hawaii 1 (16-inch) - 2015/2020',1,3,2020,269.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(15,'Electra Moto 1 - 2020',1,3,2020,529.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(16,'Electra Townie Original 7D EQ - 2020',1,3,2020,599.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(17,'Pure Cycles Vine 8-Speed - 2020',4,3,2020,429)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(18,'Pure Cycles Western 3-Speed - Women''s - 2015/2020',4,3,2020,449)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(19,'Pure Cycles William 3-Speed - 2020',4,3,2020,449)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(20,'Electra Townie Original 7D EQ - Women''s - 2020',1,3,2020,599.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(21,'Electra Cruiser 1 (24-Inch) - 2020',1,1,2020,269.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(22,'Electra Girl''s Hawaii 1 (16-inch) - 2015/2020',1,1,2020,269.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(23,'Electra Girl''s Hawaii 1 (20-inch) - 2015/2020',1,1,2020,299.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(24,'Electra Townie Original 21D - 2020',1,2,2020,549.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(25,'Electra Townie Original 7D - 2015/2020',1,2,2020,499.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(26,'Electra Townie Original 7D EQ - 2020',1,2,2020,599.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(27,'Surly Big Dummy Frameset - 2020',8,6,2020,999.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(28,'Surly Karate Monkey 27.5+ Frameset - 2020',8,6,2020,2499.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(29,'Trek X-Caliber 8 - 2020',9,6,2020,999.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(30,'Surly Ice Cream Truck Frameset - 2020',8,6,2020,999.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(31,'Surly Wednesday - 2020',8,6,2020,1632.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(32,'Trek Farley Alloy Frameset - 2020',9,6,2020,469.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(33,'Surly Wednesday Frameset - 2020',8,6,2020,469.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(34,'Trek Session DH 27.5 Carbon Frameset - 2020',9,6,2020,469.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(35,'Sun Bicycles Spider 3i - 2020',7,6,2020,832.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(36,'Surly Troll Frameset - 2020',8,6,2020,832.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(37,'Haro Flightline One ST - 2020',2,6,2020,379.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(38,'Haro Flightline Two 26 Plus - 2020',2,6,2020,549.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(39,'Trek Stache 5 - 2020',9,6,2020,1499.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(40,'Trek Fuel EX 9.8 29 - 2020',9,6,2020,4999.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(41,'Haro Shift R3 - 2020',2,6,2020,1469.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(42,'Trek Fuel EX 5 27.5 Plus - 2020',9,6,2020,2299.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(43,'Trek Fuel EX 9.8 27.5 Plus - 2020',9,6,2020,5299.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(44,'Haro SR 1.1 - 2020',2,6,2020,539.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(45,'Haro SR 1.2 - 2020',2,6,2020,869.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(46,'Haro SR 1.3 - 2020',2,6,2020,1409.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(47,'Trek Remedy 9.8 - 2020',9,6,2020,5299.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(48,'Trek Emonda S 4 - 2020',9,7,2020,1499.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(49,'Trek Domane SL 6 - 2020',9,7,2020,3499.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(50,'Trek Silque SLR 7 Women''s - 2020',9,7,2020,5999.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(51,'Trek Silque SLR 8 Women''s - 2020',9,7,2020,6499.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(52,'Surly Steamroller - 2020',8,7,2020,875.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(53,'Surly Ogre Frameset - 2020',8,7,2020,749.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(54,'Trek Domane SL Disc Frameset - 2020',9,7,2020,3199.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(55,'Trek Domane S 6 - 2020',9,7,2020,2699.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(56,'Trek Domane SLR 6 Disc - 2020',9,7,2020,5499.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(57,'Trek Emonda S 5 - 2020',9,7,2020,1999.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(58,'Trek Madone 9.2 - 2020',9,7,2020,4999.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(59,'Trek Domane S 5 Disc - 2020',9,7,2020,2599.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(60,'Sun Bicycles ElectroLite - 2020',7,5,2020,1559.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(61,'Trek Powerfly 8 FS Plus - 2020',9,5,2020,4999.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(62,'Trek Boone 7 - 2020',9,4,2020,3499.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(63,'Trek Boone Race Shop Limited - 2020',9,4,2020,3499.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(64,'Electra Townie Original 7D - 2020',1,3,2020,489.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(65,'Sun Bicycles Lil Bolt Type-R - 2020',7,3,2020,346.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(66,'Sun Bicycles Revolutions 24 - 2020',7,3,2020,250.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(67,'Sun Bicycles Revolutions 24 - Girl''s - 2020',7,3,2020,250.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(68,'Sun Bicycles Cruz 3 - 2020',7,3,2020,449.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(69,'Sun Bicycles Cruz 7 - 2020',7,3,2020,416.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(70,'Electra Amsterdam Original 3i - 2015/2020',1,3,2020,659.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(71,'Sun Bicycles Atlas X-Type - 2020',7,3,2020,416.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(72,'Sun Bicycles Biscayne Tandem 7 - 2020',7,3,2020,619.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(73,'Sun Bicycles Brickell Tandem 7 - 2020',7,3,2020,749.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(74,'Electra Cruiser Lux 1 - 2020',1,3,2020,439.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(75,'Electra Cruiser Lux Fat Tire 1 Ladies - 2020',1,3,2020,599.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(76,'Electra Girl''s Hawaii 1 16" - 2020',1,3,2020,299.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(77,'Electra Glam Punk 3i Ladies'' - 2020',1,3,2020,799.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(78,'Sun Bicycles Biscayne Tandem CB - 2020',7,3,2020,647.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(79,'Sun Bicycles Boardwalk (24-inch Wheels) - 2020',7,3,2020,402.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(80,'Sun Bicycles Brickell Tandem CB - 2020',7,3,2020,761.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(81,'Electra Amsterdam Fashion 7i Ladies'' - 2020',1,3,2020,1099.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(82,'Electra Amsterdam Original 3i Ladies'' - 2020',1,3,2020,659.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(83,'Trek Boy''s Kickster - 2015/2020',9,1,2020,149.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(84,'Sun Bicycles Lil Kitt''n - 2020',7,1,2020,109.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(85,'Haro Downtown 16 - 2020',2,1,2020,329.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(86,'Trek Girl''s Kickster - 2020',9,1,2020,149.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(87,'Trek Precaliber 12 Boys - 2020',9,1,2020,189.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(88,'Trek Precaliber 12 Girls - 2020',9,1,2020,189.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(89,'Trek Precaliber 16 Boys - 2020',9,1,2020,209.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(90,'Trek Precaliber 16 Girls - 2020',9,1,2020,209.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(91,'Trek Precaliber 24 (21-Speed) - Girls - 2020',9,1,2020,349.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(92,'Haro Shredder 20 - 2020',2,1,2020,209.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(93,'Haro Shredder 20 Girls - 2020',2,1,2020,209.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(94,'Haro Shredder Pro 20 - 2020',2,1,2020,249.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(95,'Electra Girl''s Hawaii 1 16" - 2020',1,1,2020,299.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(96,'Electra Moto 3i (20-inch) - Boy''s - 2020',1,1,2020,349.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(97,'Electra Savannah 3i (20-inch) - Girl''s - 2020',1,1,2020,349.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(98,'Electra Straight 8 3i (20-inch) - Boy''s - 2020',1,1,2020,489.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(99,'Electra Sugar Skulls 1 (20-inch) - Girl''s - 2020',1,1,2020,299.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(100,'Electra Townie 3i EQ (20-inch) - Boys'' - 2020',1,1,2020,489.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(101,'Electra Townie 7D (20-inch) - Boys'' - 2020',1,1,2020,339.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(102,'Electra Townie Original 7D - 2020',1,2,2020,489.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(103,'Sun Bicycles Streamway 3 - 2020',7,2,2020,551.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(104,'Sun Bicycles Streamway - 2020',7,2,2020,481.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(105,'Sun Bicycles Streamway 7 - 2020',7,2,2020,533.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(106,'Sun Bicycles Cruz 3 - 2020',7,2,2020,449.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(107,'Sun Bicycles Cruz 7 - 2020',7,2,2020,416.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(108,'Sun Bicycles Cruz 3 - Women''s - 2020',7,2,2020,449.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(109,'Sun Bicycles Cruz 7 - Women''s - 2020',7,2,2020,416.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(110,'Sun Bicycles Drifter 7 - 2020',7,2,2020,470.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(111,'Sun Bicycles Drifter 7 - Women''s - 2020',7,2,2020,470.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(112,'Trek 820 - 2018',9,6,2018,379.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(113,'Trek Marlin 5 - 2018',9,6,2018,489.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(114,'Trek Marlin 6 - 2018',9,6,2018,579.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(115,'Trek Fuel EX 8 29 - 2018',9,6,2018,3199.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(116,'Trek Marlin 7 - 2017/2018',9,6,2018,749.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(116,'Trek Marlin 7 - 2020/2018',9,6,2018,749.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(117,'Trek Ticket S Frame - 2018',9,6,2018,1469.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(118,'Trek X-Caliber 8 - 2018',9,6,2018,999.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(119,'Trek Kids'' Neko - 2018',9,6,2018,469.99)
@@ -219,7 +219,7 @@ INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(189,'Trek Lift+ Lowstep - 2018',9,5,2018,2799.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(190,'Trek Dual Sport+ - 2018',9,5,2018,2799.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(191,'Electra Loft Go! 8i - 2018',1,5,2018,2799.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(192,'Electra Townie Go! 8i - 2017/2018',1,5,2018,2599.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(192,'Electra Townie Go! 8i - 2020/2018',1,5,2018,2599.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(193,'Trek Lift+ - 2018',9,5,2018,2799.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(194,'Trek XM700+ - 2018',9,5,2018,3499.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(195,'Electra Townie Go! 8i Ladies'' - 2018',1,5,2018,2599.99)
@@ -240,23 +240,23 @@ INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(210,'Surly Straggler - 2018',8,4,2018,1549)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(211,'Surly Straggler 650b - 2018',8,4,2018,1549)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(212,'Electra Townie Original 21D - 2018',1,3,2018,559.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(213,'Electra Cruiser 1 - 2016/2017/2018',1,3,2018,269.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(213,'Electra Cruiser 1 - 2020/2020/2018',1,3,2018,269.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(214,'Electra Tiger Shark 3i - 2018',1,3,2018,899.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(215,'Electra Queen of Hearts 3i - 2018',1,3,2018,749.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(216,'Electra Super Moto 8i - 2018',1,3,2018,899.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(217,'Electra Straight 8 3i - 2018',1,3,2018,909.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(218,'Electra Cruiser 7D - 2016/2017/2018',1,3,2018,319.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(218,'Electra Cruiser 7D - 2020/2020/2018',1,3,2018,319.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(219,'Electra Moto 3i - 2018',1,3,2018,639.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(220,'Electra Cruiser 1 Ladies'' - 2018',1,3,2018,269.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(221,'Electra Cruiser 7D Ladies'' - 2016/2018',1,3,2018,319.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(222,'Electra Cruiser 1 Tall - 2016/2018',1,3,2018,269.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(221,'Electra Cruiser 7D Ladies'' - 2020/2018',1,3,2018,319.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(222,'Electra Cruiser 1 Tall - 2020/2018',1,3,2018,269.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(223,'Electra Cruiser Lux 3i - 2018',1,3,2018,529.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(224,'Electra Cruiser Lux 7D - 2018',1,3,2018,479.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(225,'Electra Delivery 3i - 2016/2017/2018',1,3,2018,959.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(226,'Electra Townie Original 21D EQ - 2017/2018',1,3,2018,679.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(227,'Electra Cruiser 7D (24-Inch) Ladies'' - 2016/2018',1,3,2018,319.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(228,'Electra Cruiser 7D Tall - 2016/2018',1,3,2018,319.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(229,'Electra Cruiser Lux 1 - 2016/2018',1,3,2018,429.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(225,'Electra Delivery 3i - 2020/2020/2018',1,3,2018,959.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(226,'Electra Townie Original 21D EQ - 2020/2018',1,3,2018,679.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(227,'Electra Cruiser 7D (24-Inch) Ladies'' - 2020/2018',1,3,2018,319.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(228,'Electra Cruiser 7D Tall - 2020/2018',1,3,2018,319.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(229,'Electra Cruiser Lux 1 - 2020/2018',1,3,2018,429.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(230,'Electra Cruiser Lux 1 Ladies'' - 2018',1,3,2018,429.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(231,'Electra Cruiser Lux 3i Ladies'' - 2018',1,3,2018,529.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(232,'Electra Cruiser Lux 7D Ladies'' - 2018',1,3,2018,479.99)
@@ -265,27 +265,27 @@ INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(235,'Electra Koa 3i Ladies'' - 2018',1,3,2018,899.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(236,'Electra Morningstar 3i Ladies'' - 2018',1,3,2018,749.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(237,'Electra Relic 3i - 2018',1,3,2018,849.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(238,'Electra Townie Balloon 8D EQ - 2016/2017/2018',1,3,2018,749.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(239,'Electra Townie Balloon 8D EQ Ladies'' - 2016/2017/2018',1,3,2018,749.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(238,'Electra Townie Balloon 8D EQ - 2020/2020/2018',1,3,2018,749.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(239,'Electra Townie Balloon 8D EQ Ladies'' - 2020/2020/2018',1,3,2018,749.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(240,'Electra Townie Commute 27D Ladies - 2018',1,3,2018,899.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(241,'Electra Townie Commute 8D - 2018',1,3,2018,749.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(242,'Electra Townie Commute 8D Ladies'' - 2018',1,3,2018,699.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(243,'Electra Townie Original 21D EQ Ladies'' - 2018',1,3,2018,679.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(244,'Electra Townie Original 21D Ladies'' - 2018',1,3,2018,559.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(245,'Electra Townie Original 3i EQ - 2017/2018',1,3,2018,659.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(245,'Electra Townie Original 3i EQ - 2020/2018',1,3,2018,659.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(246,'Electra Townie Original 3i EQ Ladies'' - 2018',1,3,2018,639.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(247,'Electra Townie Original 7D EQ - 2018',1,3,2018,599.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(248,'Electra Townie Original 7D EQ Ladies'' - 2017/2018',1,3,2018,599.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(248,'Electra Townie Original 7D EQ Ladies'' - 2020/2018',1,3,2018,599.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(249,'Electra White Water 3i - 2018',1,3,2018,749.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(250,'Electra Townie Go! 8i - 2017/2018',1,3,2018,2599.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(250,'Electra Townie Go! 8i - 2020/2018',1,3,2018,2599.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(251,'Electra Townie Commute Go! - 2018',1,3,2018,2999.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(252,'Electra Townie Commute Go! Ladies'' - 2018',1,3,2018,2999.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(253,'Electra Townie Go! 8i Ladies'' - 2018',1,3,2018,2599.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(254,'Electra Townie Balloon 3i EQ - 2017/2018',1,3,2018,749.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(255,'Electra Townie Balloon 7i EQ Ladies'' - 2017/2018',1,3,2018,899.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(254,'Electra Townie Balloon 3i EQ - 2020/2018',1,3,2018,749.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(255,'Electra Townie Balloon 7i EQ Ladies'' - 2020/2018',1,3,2018,899.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(256,'Electra Townie Commute 27D - 2018',1,3,2018,899.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(257,'Electra Amsterdam Fashion 3i Ladies'' - 2017/2018',1,3,2018,899.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(258,'Electra Amsterdam Royal 8i - 2017/2018',1,3,2018,1259.9)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(257,'Electra Amsterdam Fashion 3i Ladies'' - 2020/2018',1,3,2018,899.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(258,'Electra Amsterdam Royal 8i - 2020/2018',1,3,2018,1259.9)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(259,'Electra Amsterdam Royal 8i Ladies - 2018',1,3,2018,1199.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(260,'Electra Townie Balloon 3i EQ Ladies'' - 2018',1,3,2018,799.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(261,'Electra Townie Balloon 7i EQ - 2018',1,3,2018,899.99)
@@ -307,8 +307,8 @@ INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(277,'Trek Precaliber 24 21-speed Boy''s - 2018',9,1,2018,369.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(278,'Trek Precaliber 24 21-speed Girl''s - 2018',9,1,2018,369.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(279,'Trek Precaliber 24 7-speed Girl''s - 2018',9,1,2018,319.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(280,'Trek Superfly 24 - 2017/2018',9,1,2018,489.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(281,'Electra Cruiser 7D (24-Inch) Ladies'' - 2016/2018',1,1,2018,319.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(280,'Trek Superfly 24 - 2020/2018',9,1,2018,489.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(281,'Electra Cruiser 7D (24-Inch) Ladies'' - 2020/2018',1,1,2018,319.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(282,'Electra Cyclosaurus 1 (16-inch) - Boy''s - 2018',1,1,2018,279.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(283,'Electra Heartchya 1 (20-inch) - Girl''s - 2018',1,1,2018,319.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(284,'Electra Savannah 1 (20-inch) - Girl''s - 2018',1,1,2018,319.99)
@@ -330,12 +330,12 @@ INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(300,'Electra Townie Balloon 3i EQ Ladies'' - 2018',1,2,2018,799.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(301,'Electra Townie Balloon 7i EQ - 2018',1,2,2018,899.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(302,'Electra Townie Original 1 - 2018',1,2,2018,449.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(303,'Electra Townie Go! 8i - 2017/2018',1,2,2018,2599.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(304,'Electra Townie Original 21D EQ - 2017/2018',1,2,2018,679.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(305,'Electra Townie Balloon 3i EQ - 2017/2018',1,2,2018,749.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(306,'Electra Townie Balloon 7i EQ Ladies'' - 2017/2018',1,2,2018,899.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(307,'Electra Townie Balloon 8D EQ - 2016/2017/2018',1,2,2018,749.99)
-INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(308,'Electra Townie Balloon 8D EQ Ladies'' - 2016/2017/2018',1,2,2018,749.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(303,'Electra Townie Go! 8i - 2020/2018',1,2,2018,2599.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(304,'Electra Townie Original 21D EQ - 2020/2018',1,2,2018,679.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(305,'Electra Townie Balloon 3i EQ - 2020/2018',1,2,2018,749.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(306,'Electra Townie Balloon 7i EQ Ladies'' - 2020/2018',1,2,2018,899.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(307,'Electra Townie Balloon 8D EQ - 2020/2020/2018',1,2,2018,749.99)
+INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(308,'Electra Townie Balloon 8D EQ Ladies'' - 2020/2020/2018',1,2,2018,749.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(309,'Electra Townie Commute 27D - 2018',1,2,2018,899.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(310,'Electra Townie Commute 27D Ladies - 2018',1,2,2018,899.99)
 INSERT INTO production.products(Id, Name, BrandId, CategoryId, ModelYear, Price) VALUES(311,'Electra Townie Commute 8D - 2018',1,2,2018,749.99)
@@ -2760,1329 +2760,1329 @@ SET IDENTITY_INSERT sales.staff OFF;
 
 SET IDENTITY_INSERT sales.orders ON;  
 
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1,259,4,'20160101','20160103','20160103',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(2,1212,4,'20160101','20160104','20160103',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(3,523,4,'20160102','20160105','20160103',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(4,175,4,'20160103','20160104','20160105',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(5,1324,4,'20160103','20160106','20160106',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(6,94,4,'20160104','20160107','20160105',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(7,324,4,'20160104','20160107','20160105',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(8,1204,4,'20160104','20160105','20160105',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(9,60,4,'20160105','20160108','20160108',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(10,442,4,'20160105','20160106','20160106',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(11,1326,4,'20160105','20160108','20160107',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(12,91,4,'20160106','20160108','20160109',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(13,873,4,'20160108','20160111','20160111',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(14,258,4,'20160109','20160111','20160112',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(15,450,4,'20160109','20160110','20160112',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(16,552,4,'20160112','20160115','20160115',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(17,1175,4,'20160112','20160114','20160114',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(18,541,4,'20160114','20160117','20160115',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(19,696,4,'20160114','20160117','20160116',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(20,923,4,'20160114','20160116','20160117',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(21,1250,4,'20160115','20160116','20160118',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(22,1035,4,'20160116','20160118','20160117',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(23,1149,4,'20160116','20160119','20160119',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(24,636,4,'20160118','20160120','20160119',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(25,657,4,'20160118','20160121','20160121',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(26,1280,4,'20160118','20160121','20160119',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(27,57,4,'20160119','20160121','20160120',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(28,252,4,'20160119','20160120','20160121',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(29,437,4,'20160120','20160122','20160121',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(30,1348,4,'20160120','20160121','20160121',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(31,1238,4,'20160120','20160122','20160122',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(32,1259,4,'20160121','20160124','20160122',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(33,236,4,'20160121','20160122','20160122',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(34,80,4,'20160122','20160125','20160123',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(35,813,4,'20160122','20160125','20160124',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(36,1321,4,'20160123','20160124','20160124',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(37,164,4,'20160125','20160128','20160126',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(38,583,4,'20160125','20160127','20160126',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(39,1296,4,'20160125','20160126','20160126',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(40,348,4,'20160127','20160128','20160129',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(41,979,4,'20160127','20160130','20160129',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(42,1095,4,'20160127','20160128','20160130',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(43,1434,4,'20160127','20160128','20160130',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(44,861,4,'20160128','20160131','20160130',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(45,1220,4,'20160128','20160131','20160131',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(46,746,4,'20160129','20160131','20160131',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(47,1234,4,'20160129','20160130','20160131',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(48,1012,4,'20160130','20160201','20160202',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(49,608,4,'20160131','20160201','20160202',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(50,872,4,'20160131','20160203','20160202',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(51,1047,4,'20160201','20160202','20160203',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(52,767,4,'20160203','20160204','20160205',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(53,965,4,'20160203','20160204','20160205',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(54,535,4,'20160204','20160207','20160207',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(55,1173,4,'20160204','20160207','20160206',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(56,1241,4,'20160204','20160206','20160207',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(57,1305,4,'20160204','20160206','20160206',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(58,504,4,'20160205','20160207','20160207',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(59,563,4,'20160205','20160207','20160206',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(60,151,4,'20160206','20160208','20160207',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(61,277,4,'20160206','20160209','20160209',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(62,208,4,'20160207','20160210','20160210',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(63,1075,4,'20160207','20160209','20160209',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(64,1185,4,'20160207','20160208','20160209',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(65,996,4,'20160208','20160209','20160211',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(66,1253,4,'20160209','20160212','20160212',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(67,526,4,'20160209','20160211','20160210',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(68,381,4,'20160210','20160211','20160213',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(69,1413,4,'20160210','20160212','20160211',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(70,50,3,'20160211','20160211',NULL,3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(71,797,4,'20160211','20160214','20160212',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(72,1386,4,'20160212','20160215','20160213',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(73,612,4,'20160212','20160215','20160214',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(74,264,4,'20160213','20160215','20160215',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(75,587,4,'20160214','20160215','20160217',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(76,9,3,'20160216','20160216',NULL,2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(77,385,4,'20160216','20160219','20160219',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(78,1182,4,'20160216','20160218','20160219',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(79,529,4,'20160217','20160220','20160220',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(80,397,4,'20160217','20160220','20160219',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(81,521,4,'20160217','20160219','20160218',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(82,1223,4,'20160218','20160221','20160220',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(83,393,4,'20160219','20160220','20160220',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(84,317,4,'20160220','20160222','20160221',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(85,1174,4,'20160220','20160223','20160221',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(86,276,4,'20160221','20160222','20160223',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(87,516,4,'20160221','20160222','20160223',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(88,1069,4,'20160221','20160222','20160223',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(89,668,4,'20160221','20160224','20160224',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(90,414,4,'20160223','20160225','20160224',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(91,648,4,'20160225','20160227','20160228',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(92,1309,4,'20160225','20160228','20160228',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(93,1328,4,'20160226','20160228','20160227',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(94,929,4,'20160227','20160228','20160229',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(95,218,4,'20160227','20160229','20160228',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(96,1094,4,'20160227','20160229','20160228',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(97,204,4,'20160228','20160229','20160301',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(98,1194,4,'20160228','20160229','20160229',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(99,1165,4,'20160229','20160301','20160303',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(100,1237,4,'20160301','20160304','20160303',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(101,271,4,'20160301','20160304','20160304',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(102,336,4,'20160302','20160305','20160303',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(103,991,4,'20160303','20160306','20160305',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(104,7,4,'20160303','20160305','20160305',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(105,306,4,'20160303','20160305','20160304',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(106,422,4,'20160304','20160305','20160305',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(107,633,4,'20160306','20160309','20160309',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(108,12,4,'20160306','20160309','20160307',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(109,1255,4,'20160306','20160309','20160309',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(110,677,4,'20160306','20160308','20160309',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(111,630,4,'20160307','20160310','20160310',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(112,469,4,'20160308','20160311','20160310',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(113,1078,4,'20160308','20160311','20160311',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(114,1431,4,'20160308','20160310','20160311',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(115,1369,4,'20160309','20160311','20160311',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(116,471,4,'20160310','20160311','20160311',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(117,740,4,'20160310','20160313','20160311',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(118,577,4,'20160312','20160314','20160313',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(119,925,4,'20160312','20160314','20160314',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(120,327,4,'20160314','20160315','20160317',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(121,755,4,'20160314','20160315','20160316',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(122,786,4,'20160314','20160316','20160315',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(123,766,4,'20160315','20160318','20160317',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(124,403,4,'20160316','20160318','20160317',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(125,685,4,'20160316','20160319','20160317',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(126,1365,4,'20160316','20160318','20160318',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(127,484,4,'20160317','20160318','20160319',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(128,86,4,'20160318','20160320','20160321',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(129,84,4,'20160319','20160321','20160321',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(130,1049,4,'20160319','20160322','20160320',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(131,316,4,'20160319','20160322','20160320',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(132,46,4,'20160320','20160322','20160323',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(133,409,4,'20160320','20160322','20160321',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(134,679,4,'20160320','20160321','20160321',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(135,1354,4,'20160321','20160323','20160323',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(136,1192,4,'20160321','20160324','20160323',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(137,370,4,'20160323','20160326','20160325',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(138,438,4,'20160323','20160324','20160325',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(139,710,4,'20160323','20160324','20160326',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(140,1264,4,'20160323','20160326','20160326',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(141,557,4,'20160325','20160327','20160326',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(142,170,4,'20160326','20160327','20160327',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(143,693,4,'20160326','20160328','20160328',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(144,1124,4,'20160326','20160329','20160329',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(145,366,4,'20160327','20160329','20160330',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(146,288,4,'20160328','20160330','20160330',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(147,55,4,'20160328','20160331','20160331',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(148,714,4,'20160328','20160330','20160330',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(149,763,4,'20160328','20160330','20160329',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(150,332,4,'20160329','20160331','20160401',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(151,926,4,'20160329','20160401','20160331',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(152,76,4,'20160329','20160330','20160330',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(153,498,4,'20160330','20160402','20160401',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(154,1286,4,'20160331','20160401','20160401',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(155,371,4,'20160402','20160403','20160404',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(156,357,4,'20160403','20160406','20160405',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(157,43,4,'20160403','20160406','20160406',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(158,117,3,'20160404','20160404',NULL,3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(159,32,4,'20160404','20160406','20160406',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(160,205,4,'20160404','20160406','20160406',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(161,251,4,'20160404','20160407','20160405',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(162,31,4,'20160406','20160408','20160407',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(163,1325,4,'20160406','20160407','20160407',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(164,610,4,'20160407','20160408','20160409',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(165,574,4,'20160408','20160410','20160410',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(166,338,4,'20160408','20160411','20160411',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(167,1034,4,'20160408','20160409','20160411',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(168,1147,4,'20160409','20160412','20160411',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(169,99,4,'20160410','20160411','20160411',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(170,1200,4,'20160410','20160411','20160413',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(171,237,4,'20160411','20160414','20160414',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(172,1079,4,'20160411','20160412','20160414',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(173,117,4,'20160411','20160414','20160413',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(174,1361,4,'20160412','20160413','20160415',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(175,951,4,'20160413','20160414','20160414',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(176,643,4,'20160415','20160416','20160417',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(177,121,4,'20160416','20160419','20160419',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(178,756,4,'20160416','20160417','20160418',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(179,616,4,'20160417','20160419','20160419',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(180,918,4,'20160417','20160420','20160419',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(181,459,4,'20160418','20160420','20160420',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(182,854,4,'20160418','20160419','20160420',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(183,22,4,'20160419','20160420','20160420',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(184,134,4,'20160419','20160421','20160422',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(185,24,3,'20160420','20160420',NULL,1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(186,1127,4,'20160421','20160422','20160424',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(187,183,4,'20160422','20160423','20160424',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(188,390,4,'20160422','20160423','20160425',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(189,1288,4,'20160423','20160424','20160426',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(190,98,4,'20160423','20160425','20160425',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(191,919,4,'20160427','20160428','20160428',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(192,728,4,'20160427','20160428','20160429',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(193,1366,4,'20160428','20160430','20160430',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(194,558,4,'20160428','20160430','20160501',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(195,727,4,'20160428','20160501','20160501',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(196,1247,4,'20160428','20160430','20160501',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(197,127,4,'20160430','20160503','20160503',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(198,640,4,'20160501','20160504','20160503',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(199,760,4,'20160501','20160504','20160504',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(200,1074,4,'20160501','20160503','20160503',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(201,280,4,'20160501','20160504','20160502',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(202,600,4,'20160503','20160505','20160504',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(203,1102,4,'20160503','20160505','20160506',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(204,591,4,'20160504','20160507','20160506',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(205,635,4,'20160504','20160505','20160506',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(206,743,4,'20160504','20160506','20160505',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(207,105,4,'20160505','20160507','20160507',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(208,815,4,'20160506','20160507','20160509',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(209,514,4,'20160507','20160508','20160508',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(210,943,4,'20160507','20160508','20160509',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(211,1140,4,'20160507','20160509','20160508',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(212,1373,4,'20160508','20160509','20160511',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(213,788,4,'20160508','20160509','20160509',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(214,363,4,'20160510','20160512','20160511',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(215,1420,4,'20160510','20160513','20160512',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(216,267,4,'20160511','20160514','20160513',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(217,716,4,'20160511','20160512','20160514',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(218,1179,4,'20160512','20160514','20160514',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(219,1338,4,'20160512','20160515','20160515',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(220,1358,4,'20160512','20160514','20160515',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(221,1218,4,'20160513','20160516','20160514',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(222,51,4,'20160513','20160516','20160514',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(223,1368,4,'20160515','20160516','20160517',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(224,157,4,'20160517','20160518','20160519',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(225,307,4,'20160517','20160520','20160519',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(226,501,4,'20160517','20160519','20160520',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(227,489,4,'20160517','20160518','20160520',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(228,615,4,'20160517','20160520','20160520',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(229,742,4,'20160519','20160521','20160520',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(230,1167,4,'20160519','20160520','20160521',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(231,1257,4,'20160519','20160522','20160521',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(232,1360,4,'20160520','20160523','20160523',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(233,737,4,'20160521','20160522','20160524',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(234,1435,4,'20160522','20160524','20160524',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(235,649,4,'20160524','20160525','20160525',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(236,206,4,'20160525','20160527','20160526',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(237,1351,4,'20160525','20160526','20160527',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(238,1350,4,'20160526','20160529','20160529',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(239,13,3,'20160527','20160527',NULL,3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(240,65,4,'20160527','20160529','20160530',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(241,1082,4,'20160527','20160529','20160529',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(242,1168,4,'20160527','20160530','20160530',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(243,802,4,'20160527','20160530','20160528',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(244,956,4,'20160528','20160529','20160529',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(245,223,4,'20160529','20160531','20160530',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(246,17,3,'20160530','20160530',NULL,2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(247,928,4,'20160530','20160601','20160601',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(248,1376,4,'20160530','20160601','20160531',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(249,145,4,'20160601','20160604','20160604',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(250,150,4,'20160601','20160602','20160604',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(251,851,4,'20160601','20160604','20160604',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(252,66,4,'20160601','20160604','20160602',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(253,1267,4,'20160602','20160605','20160605',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(254,510,4,'20160603','20160606','20160605',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(255,801,4,'20160603','20160606','20160605',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(256,26,4,'20160604','20160605','20160607',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(257,1314,4,'20160605','20160606','20160608',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(258,107,4,'20160606','20160607','20160607',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(259,413,4,'20160606','20160609','20160609',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(260,632,4,'20160606','20160608','20160608',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(261,1045,4,'20160608','20160610','20160609',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(262,579,4,'20160608','20160611','20160610',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(263,1322,4,'20160609','20160610','20160612',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(264,5,3,'20160610','20160610',NULL,1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(265,682,4,'20160610','20160612','20160611',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(266,933,4,'20160610','20160613','20160613',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(267,282,4,'20160611','20160614','20160614',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(268,540,4,'20160611','20160614','20160612',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(269,764,4,'20160612','20160613','20160615',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(270,879,4,'20160612','20160615','20160613',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(271,350,4,'20160613','20160616','20160614',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(272,497,4,'20160615','20160618','20160616',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(273,1340,4,'20160616','20160619','20160617',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(274,411,4,'20160617','20160620','20160618',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(275,1341,4,'20160617','20160619','20160618',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(276,1227,4,'20160618','20160619','20160619',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(277,546,4,'20160619','20160620','20160620',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(278,1301,4,'20160620','20160623','20160621',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(279,378,4,'20160621','20160622','20160622',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(280,638,4,'20160621','20160622','20160623',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(281,800,4,'20160621','20160622','20160623',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(282,159,4,'20160622','20160625','20160625',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(283,181,4,'20160623','20160626','20160626',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(284,1356,4,'20160623','20160625','20160625',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(285,319,4,'20160625','20160626','20160627',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(286,59,4,'20160625','20160626','20160626',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(287,133,4,'20160625','20160626','20160627',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(288,780,4,'20160625','20160628','20160628',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(289,849,4,'20160627','20160628','20160630',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(290,202,4,'20160628','20160629','20160630',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(291,158,4,'20160629','20160630','20160701',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(292,360,4,'20160629','20160630','20160702',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(293,573,4,'20160630','20160703','20160702',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(294,732,4,'20160701','20160702','20160702',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(295,1130,4,'20160701','20160704','20160704',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(296,1245,4,'20160704','20160707','20160706',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(297,1425,4,'20160704','20160705','20160706',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(298,885,4,'20160704','20160707','20160707',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(299,281,4,'20160705','20160706','20160707',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(300,1205,4,'20160705','20160708','20160708',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(301,17,4,'20160706','20160709','20160708',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(302,1375,4,'20160706','20160707','20160709',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(303,36,4,'20160707','20160708','20160709',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(304,230,4,'20160707','20160708','20160708',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(305,705,4,'20160707','20160708','20160708',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(306,424,4,'20160709','20160710','20160712',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(307,695,4,'20160709','20160711','20160711',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(308,156,4,'20160711','20160712','20160714',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(309,211,4,'20160711','20160713','20160713',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(310,627,4,'20160712','20160713','20160713',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(311,1400,4,'20160712','20160714','20160713',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(312,299,4,'20160713','20160715','20160716',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(313,565,4,'20160714','20160715','20160715',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(314,1019,4,'20160715','20160717','20160717',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(315,1263,4,'20160716','20160719','20160717',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(316,670,4,'20160717','20160720','20160719',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(317,795,4,'20160717','20160720','20160719',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(318,1141,4,'20160717','20160719','20160720',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(319,941,4,'20160718','20160721','20160721',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(320,1428,4,'20160719','20160720','20160721',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(321,568,4,'20160719','20160722','20160721',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(322,924,4,'20160719','20160722','20160720',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(323,1243,4,'20160719','20160722','20160721',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(324,480,4,'20160720','20160722','20160723',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(325,848,4,'20160720','20160721','20160721',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(326,1337,4,'20160720','20160721','20160722',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(327,83,4,'20160721','20160724','20160722',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(328,528,4,'20160723','20160726','20160725',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(329,274,4,'20160724','20160727','20160726',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(330,622,4,'20160724','20160727','20160727',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(331,642,4,'20160724','20160726','20160725',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(332,659,4,'20160724','20160726','20160726',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(333,779,4,'20160725','20160727','20160726',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(334,1112,4,'20160725','20160728','20160727',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(335,1193,4,'20160725','20160727','20160726',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(336,1030,4,'20160726','20160729','20160727',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(337,1252,4,'20160726','20160727','20160728',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(338,1333,4,'20160728','20160729','20160730',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(339,1110,4,'20160728','20160731','20160729',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(340,963,4,'20160729','20160730','20160731',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(341,1357,4,'20160731','20160803','20160801',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(342,806,4,'20160731','20160801','20160803',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(343,961,4,'20160731','20160802','20160801',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(344,750,4,'20160801','20160803','20160802',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(345,1299,4,'20160801','20160804','20160803',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(346,584,4,'20160801','20160803','20160802',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(347,1004,4,'20160802','20160803','20160805',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(348,907,4,'20160802','20160805','20160804',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(349,30,3,'20160803','20160803',NULL,1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(350,31,3,'20160803','20160803',NULL,1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(351,1307,4,'20160803','20160806','20160804',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(352,16,4,'20160803','20160804','20160806',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(353,1387,4,'20160803','20160806','20160806',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(354,551,4,'20160803','20160805','20160806',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(355,1011,4,'20160803','20160805','20160805',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(356,1189,4,'20160804','20160807','20160806',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(357,14,3,'20160805','20160805',NULL,3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(358,1042,4,'20160805','20160807','20160807',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(359,441,4,'20160807','20160810','20160810',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(360,1300,4,'20160807','20160809','20160810',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(361,994,4,'20160808','20160809','20160811',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(362,187,4,'20160809','20160811','20160811',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(363,834,4,'20160811','20160812','20160813',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(364,373,4,'20160812','20160814','20160813',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(365,981,4,'20160813','20160814','20160815',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(366,1054,4,'20160813','20160814','20160814',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(367,527,4,'20160814','20160815','20160815',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(368,995,4,'20160814','20160815','20160817',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(369,1285,4,'20160815','20160818','20160818',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(370,758,4,'20160815','20160818','20160818',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(371,891,4,'20160815','20160816','20160818',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(372,132,4,'20160816','20160818','20160818',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(373,337,4,'20160816','20160819','20160817',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(374,1313,4,'20160817','20160819','20160818',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(375,536,4,'20160817','20160820','20160820',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(376,825,4,'20160817','20160819','20160818',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(377,1355,4,'20160817','20160819','20160820',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(378,475,4,'20160817','20160820','20160820',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(379,954,4,'20160818','20160821','20160821',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(380,1156,4,'20160819','20160820','20160821',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(381,1297,4,'20160819','20160821','20160821',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(382,199,4,'20160820','20160823','20160823',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(383,331,4,'20160820','20160823','20160822',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(384,410,4,'20160820','20160822','20160823',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(385,1274,4,'20160820','20160823','20160822',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(386,1362,4,'20160820','20160823','20160823',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(387,451,4,'20160820','20160821','20160821',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(388,1080,4,'20160821','20160824','20160823',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(389,53,4,'20160822','20160824','20160825',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(390,576,4,'20160822','20160824','20160825',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(391,61,3,'20160823','20160823',NULL,3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(392,176,4,'20160823','20160826','20160824',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(393,368,4,'20160825','20160826','20160827',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(394,522,4,'20160826','20160828','20160829',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(395,144,4,'20160826','20160827','20160829',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(396,542,4,'20160827','20160830','20160829',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(397,1437,4,'20160828','20160831','20160829',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(398,447,4,'20160829','20160830','20160901',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(399,1001,4,'20160829','20160901','20160901',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(400,1295,4,'20160829','20160830','20160831',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(401,103,4,'20160830','20160902','20160901',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(402,1335,4,'20160830','20160901','20160831',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(403,578,4,'20160831','20160901','20160902',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(404,396,4,'20160831','20160903','20160901',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(405,603,4,'20160831','20160901','20160901',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(406,1380,4,'20160831','20160902','20160901',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(407,77,3,'20160901','20160901',NULL,3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(408,1071,4,'20160901','20160902','20160902',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(409,416,4,'20160901','20160904','20160904',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(410,1151,4,'20160901','20160903','20160902',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(411,261,4,'20160902','20160904','20160904',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(412,1202,4,'20160902','20160904','20160904',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(413,717,4,'20160902','20160905','20160903',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(414,917,4,'20160903','20160906','20160906',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(415,1265,4,'20160903','20160906','20160906',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(416,1377,4,'20160903','20160904','20160906',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(417,359,4,'20160904','20160905','20160906',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(418,88,4,'20160904','20160905','20160905',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(419,14,4,'20160904','20160907','20160906',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(420,72,4,'20160905','20160906','20160907',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(421,240,4,'20160905','20160906','20160908',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(422,398,4,'20160906','20160907','20160909',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(423,1397,4,'20160906','20160909','20160909',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(424,67,4,'20160908','20160911','20160911',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(425,843,4,'20160908','20160911','20160911',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(426,944,4,'20160908','20160910','20160910',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(427,434,4,'20160909','20160910','20160911',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(428,1039,4,'20160909','20160912','20160910',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(429,153,4,'20160910','20160912','20160912',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(430,272,4,'20160911','20160913','20160912',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(431,1217,4,'20160911','20160912','20160912',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(432,169,4,'20160912','20160915','20160914',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(433,1062,4,'20160912','20160915','20160913',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(434,726,4,'20160913','20160915','20160914',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(435,77,4,'20160914','20160915','20160916',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(436,791,4,'20160916','20160919','20160919',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(437,1085,4,'20160916','20160918','20160918',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(438,314,4,'20160916','20160919','20160918',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(439,149,4,'20160917','20160920','20160918',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(440,882,4,'20160917','20160918','20160919',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(441,704,4,'20160918','20160919','20160919',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(442,667,4,'20160918','20160921','20160921',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(443,1371,4,'20160918','20160919','20160920',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(444,30,4,'20160919','20160920','20160921',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(445,362,4,'20160919','20160922','20160922',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(446,399,4,'20160919','20160921','20160920',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(447,808,4,'20160920','20160923','20160922',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(448,101,4,'20160921','20160922','20160924',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(449,492,4,'20160921','20160924','20160922',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(450,575,4,'20160921','20160924','20160923',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(451,1146,4,'20160921','20160923','20160922',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(452,997,4,'20160922','20160923','20160924',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(453,1028,4,'20160922','20160924','20160925',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(454,988,4,'20160923','20160925','20160926',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(455,1055,4,'20160923','20160924','20160924',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(456,1061,4,'20160923','20160926','20160925',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(457,1349,4,'20160924','20160927','20160927',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(458,197,4,'20160925','20160928','20160926',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(459,874,4,'20160925','20160928','20160926',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(460,691,4,'20160925','20160927','20160926',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(461,853,4,'20160926','20160927','20160927',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(462,852,4,'20160927','20160928','20160929',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(463,964,4,'20160927','20160928','20160928',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(464,74,4,'20160928','20160930','20160929',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(465,1198,4,'20160928','20161001','20161001',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(466,1440,4,'20160928','20160929','20161001',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(467,555,4,'20160928','20160930','20160930',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(468,1261,4,'20160929','20161002','20160930',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(469,1089,4,'20160929','20161002','20161002',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(470,641,4,'20160930','20161002','20161002',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(471,697,4,'20160930','20161002','20161001',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(472,468,4,'20160930','20161001','20161001',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(473,549,4,'20160930','20161002','20161003',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(474,553,4,'20161001','20161004','20161004',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(475,241,4,'20161001','20161004','20161003',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(476,559,4,'20161001','20161004','20161002',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(477,449,4,'20161002','20161005','20161004',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(478,304,4,'20161002','20161005','20161003',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(479,984,4,'20161003','20161004','20161004',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(480,686,4,'20161004','20161007','20161005',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(481,481,4,'20161004','20161007','20161006',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(482,513,4,'20161005','20161006','20161006',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(483,703,4,'20161006','20161007','20161009',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(484,421,4,'20161006','20161009','20161007',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(485,465,4,'20161006','20161008','20161007',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(486,709,4,'20161006','20161008','20161009',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(487,827,4,'20161006','20161009','20161009',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(488,921,4,'20161006','20161009','20161008',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(489,899,4,'20161006','20161008','20161008',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(490,876,4,'20161007','20161010','20161009',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(491,1048,4,'20161008','20161010','20161011',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(492,191,4,'20161009','20161010','20161012',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(493,796,4,'20161009','20161012','20161011',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(494,875,4,'20161009','20161010','20161011',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(495,712,4,'20161010','20161012','20161013',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(496,193,4,'20161010','20161012','20161011',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(497,785,4,'20161010','20161011','20161011',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(498,1331,4,'20161010','20161012','20161011',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(499,260,4,'20161011','20161014','20161013',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(500,148,4,'20161011','20161012','20161013',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(501,977,4,'20161011','20161012','20161013',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(502,401,4,'20161012','20161013','20161013',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(503,932,4,'20161013','20161016','20161014',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(504,1381,4,'20161014','20161015','20161015',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(505,721,4,'20161014','20161016','20161017',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(506,831,4,'20161014','20161016','20161016',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(507,1378,4,'20161015','20161017','20161017',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(508,1359,4,'20161015','20161018','20161018',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(509,235,4,'20161016','20161017','20161017',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(510,586,4,'20161017','20161018','20161018',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(511,377,4,'20161018','20161020','20161019',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(512,8,4,'20161019','20161022','20161020',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(513,155,4,'20161019','20161021','20161021',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(514,927,4,'20161019','20161021','20161020',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(515,986,4,'20161019','20161020','20161022',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(516,111,4,'20161021','20161023','20161024',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(517,613,4,'20161021','20161022','20161024',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(518,1374,4,'20161022','20161024','20161025',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(519,54,4,'20161022','20161023','20161024',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(520,639,4,'20161023','20161026','20161024',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(521,664,4,'20161023','20161025','20161025',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(522,724,4,'20161023','20161024','20161024',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(523,1056,4,'20161024','20161026','20161027',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(524,569,4,'20161025','20161026','20161027',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(525,1315,4,'20161026','20161028','20161029',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(526,1096,4,'20161026','20161028','20161028',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(527,506,4,'20161027','20161029','20161028',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(528,676,4,'20161028','20161031','20161031',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(529,753,4,'20161028','20161030','20161031',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(530,773,4,'20161028','20161031','20161031',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(531,116,4,'20161028','20161029','20161030',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(532,817,4,'20161029','20161031','20161030',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(533,1334,4,'20161029','20161101','20161101',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(534,1406,4,'20161029','20161030','20161031',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(535,835,4,'20161029','20161031','20161101',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(536,759,4,'20161031','20161102','20161101',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(537,1353,4,'20161031','20161101','20161103',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(538,341,4,'20161102','20161105','20161105',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(539,1144,4,'20161102','20161104','20161103',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(540,1429,4,'20161103','20161105','20161106',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(541,1228,4,'20161104','20161107','20161107',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(542,313,4,'20161104','20161106','20161105',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(543,62,4,'20161106','20161109','20161108',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(544,321,4,'20161106','20161107','20161108',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(545,1108,4,'20161108','20161110','20161109',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(546,470,4,'20161109','20161112','20161110',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(547,20,4,'20161109','20161111','20161110',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(548,739,4,'20161111','20161113','20161113',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(549,64,3,'20161112','20161112',NULL,3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(550,892,4,'20161112','20161114','20161115',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(551,1169,4,'20161112','20161113','20161113',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(552,1282,4,'20161112','20161115','20161113',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(553,913,4,'20161112','20161113','20161115',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(554,104,4,'20161113','20161114','20161116',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(555,212,4,'20161113','20161114','20161116',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(556,61,4,'20161113','20161114','20161115',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(557,1248,4,'20161114','20161117','20161115',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(558,1443,4,'20161115','20161116','20161117',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(559,959,4,'20161116','20161117','20161117',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(560,1405,4,'20161118','20161119','20161121',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(561,90,4,'20161119','20161122','20161122',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(562,942,4,'20161119','20161120','20161122',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(563,365,4,'20161120','20161122','20161121',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(564,1058,4,'20161120','20161123','20161122',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(565,894,4,'20161121','20161122','20161122',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(566,298,4,'20161122','20161125','20161123',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(567,1430,4,'20161122','20161123','20161123',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(568,1275,4,'20161123','20161125','20161124',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(569,707,4,'20161123','20161124','20161125',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(570,989,4,'20161123','20161124','20161125',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(571,5,4,'20161124','20161125','20161127',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(572,178,4,'20161124','20161126','20161126',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(573,423,4,'20161124','20161126','20161127',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(574,833,4,'20161126','20161127','20161129',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(575,33,4,'20161127','20161128','20161130',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(576,1272,4,'20161127','20161130','20161128',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(577,445,4,'20161127','20161130','20161129',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(578,819,4,'20161127','20161128','20161129',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(579,160,4,'20161127','20161130','20161129',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(580,581,4,'20161130','20161202','20161202',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(581,688,4,'20161203','20161205','20161206',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(582,32,3,'20161204','20161204',NULL,1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(583,792,4,'20161204','20161205','20161207',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(584,1209,4,'20161204','20161205','20161205',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(585,1219,4,'20161204','20161205','20161205',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(586,1306,4,'20161204','20161206','20161205',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(587,487,4,'20161206','20161208','20161208',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(588,102,4,'20161206','20161207','20161207',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(589,719,4,'20161206','20161207','20161207',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(590,990,4,'20161206','20161209','20161207',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(591,1211,4,'20161206','20161209','20161209',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(592,1232,4,'20161206','20161208','20161208',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(593,50,4,'20161207','20161210','20161208',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(594,1318,4,'20161207','20161208','20161208',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(595,538,4,'20161208','20161209','20161211',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(596,952,4,'20161208','20161209','20161209',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(597,1121,4,'20161208','20161209','20161210',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(598,40,3,'20161209','20161209',NULL,1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(599,1,4,'20161209','20161210','20161212',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(600,624,4,'20161209','20161212','20161211',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(601,683,4,'20161209','20161210','20161210',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(602,823,4,'20161209','20161210','20161211',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(603,1032,4,'20161209','20161210','20161210',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(604,96,4,'20161210','20161213','20161212',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(605,1208,4,'20161210','20161211','20161212',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(606,18,4,'20161211','20161212','20161213',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(607,309,4,'20161211','20161214','20161213',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(608,1103,4,'20161212','20161215','20161214',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(609,896,4,'20161212','20161213','20161214',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(610,711,4,'20161213','20161215','20161214',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(611,1073,4,'20161215','20161217','20161218',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(612,634,4,'20161216','20161217','20161217',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(613,1159,4,'20161217','20161219','20161219',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(614,654,4,'20161218','20161221','20161221',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(615,560,4,'20161219','20161222','20161221',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(616,1444,4,'20161220','20161223','20161223',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(617,118,4,'20161221','20161223','20161223',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(618,131,4,'20161221','20161222','20161222',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(619,454,4,'20161222','20161225','20161225',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(620,466,4,'20161222','20161224','20161224',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(621,1157,4,'20161223','20161225','20161224',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(622,1398,4,'20161223','20161226','20161225',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(623,678,4,'20161224','20161226','20161227',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(624,814,4,'20161224','20161225','20161227',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(625,1163,4,'20161225','20161228','20161226',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(626,130,4,'20161225','20161228','20161227',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(627,1119,4,'20161225','20161226','20161228',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(628,561,4,'20161226','20161229','20161227',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(629,973,4,'20161226','20161227','20161229',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(630,1404,4,'20161226','20161227','20161228',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(631,855,4,'20161227','20161229','20161229',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(632,163,4,'20161227','20161229','20161229',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(633,1040,4,'20161228','20161231','20161230',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(634,27,4,'20161229','20170101','20161230',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(635,520,4,'20161230','20170102','20161231',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(636,532,4,'20170103','20170104','20170105',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(637,512,4,'20170103','20170105','20170105',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(638,1302,4,'20170104','20170105','20170106',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(639,550,4,'20170106','20170107','20170107',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(640,1093,4,'20170106','20170108','20170107',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(641,673,4,'20170107','20170110','20170108',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(642,847,4,'20170107','20170109','20170110',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(643,901,4,'20170108','20170109','20170111',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(644,439,4,'20170108','20170111','20170110',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(645,1199,4,'20170108','20170111','20170110',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(646,975,4,'20170109','20170112','20170111',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(647,283,4,'20170109','20170110','20170111',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(648,684,4,'20170109','20170111','20170111',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(649,1153,4,'20170110','20170111','20170113',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(650,729,4,'20170111','20170114','20170112',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(651,190,4,'20170111','20170113','20170113',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(652,985,4,'20170112','20170115','20170113',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(653,1249,4,'20170114','20170117','20170115',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(654,1129,4,'20170114','20170115','20170117',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(655,347,4,'20170116','20170117','20170118',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(656,949,4,'20170116','20170117','20170118',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(657,349,4,'20170117','20170119','20170120',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(658,1051,4,'20170117','20170118','20170118',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(659,1391,4,'20170117','20170119','20170118',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(660,383,4,'20170118','20170119','20170119',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(661,626,4,'20170118','20170119','20170120',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(662,1125,4,'20170119','20170120','20170120',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(663,344,4,'20170120','20170122','20170123',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(664,681,4,'20170120','20170123','20170122',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(665,29,4,'20170121','20170122','20170123',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(666,770,4,'20170121','20170122','20170124',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(667,858,4,'20170122','20170124','20170125',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(668,297,4,'20170122','20170123','20170124',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(669,745,4,'20170123','20170124','20170126',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(670,361,4,'20170124','20170125','20170125',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(671,922,4,'20170125','20170128','20170126',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(672,908,4,'20170126','20170129','20170129',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(673,64,4,'20170126','20170128','20170127',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(674,733,4,'20170127','20170128','20170129',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(675,291,4,'20170128','20170131','20170130',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(676,790,4,'20170128','20170130','20170131',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(677,809,4,'20170128','20170131','20170130',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(678,250,4,'20170128','20170129','20170131',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(679,81,4,'20170129','20170130','20170130',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(680,245,4,'20170129','20170201','20170130',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(681,499,4,'20170129','20170201','20170131',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(682,614,4,'20170129','20170130','20170130',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(683,741,4,'20170129','20170131','20170201',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(684,762,4,'20170131','20170201','20170202',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(685,976,4,'20170131','20170203','20170202',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(686,380,4,'20170201','20170203','20170204',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(687,530,4,'20170202','20170205','20170204',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(688,343,4,'20170202','20170203','20170205',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(689,884,4,'20170202','20170203','20170205',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(690,1097,4,'20170203','20170204','20170206',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(691,1081,4,'20170204','20170206','20170206',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(692,2,3,'20170205','20170205',NULL,1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(693,1233,4,'20170205','20170207','20170206',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(694,58,4,'20170205','20170206','20170208',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(695,606,4,'20170205','20170208','20170207',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(696,1242,4,'20170205','20170208','20170208',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(697,562,4,'20170206','20170208','20170209',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(698,543,4,'20170206','20170208','20170209',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(699,958,4,'20170206','20170208','20170209',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(700,4,4,'20170207','20170210','20170208',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(701,850,4,'20170207','20170208','20170209',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(702,1352,4,'20170208','20170209','20170211',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(703,417,4,'20170208','20170209','20170209',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(704,1137,4,'20170208','20170209','20170211',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(705,1196,4,'20170208','20170211','20170211',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(706,1271,4,'20170209','20170212','20170210',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(707,79,4,'20170209','20170211','20170211',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(708,660,4,'20170210','20170212','20170211',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(709,1162,4,'20170211','20170213','20170212',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(710,295,4,'20170213','20170215','20170216',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(711,1246,4,'20170213','20170216','20170214',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(712,173,4,'20170213','20170214','20170216',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(713,207,4,'20170213','20170214','20170215',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(714,805,4,'20170214','20170217','20170215',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(715,12,3,'20170215','20170215',NULL,2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(716,672,4,'20170215','20170217','20170218',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(717,1312,4,'20170215','20170218','20170217',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(718,38,4,'20170216','20170217','20170217',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(719,200,4,'20170216','20170219','20170218',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(720,382,4,'20170216','20170219','20170219',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(721,625,4,'20170216','20170219','20170217',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(722,1399,4,'20170218','20170220','20170221',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(723,845,4,'20170219','20170221','20170222',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(724,864,4,'20170219','20170222','20170221',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(725,870,4,'20170219','20170222','20170222',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(726,969,4,'20170219','20170222','20170220',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(727,962,4,'20170219','20170222','20170221',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(728,1138,4,'20170220','20170221','20170223',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(729,897,4,'20170220','20170222','20170221',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(730,500,4,'20170221','20170224','20170222',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(731,910,4,'20170225','20170227','20170227',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(732,147,4,'20170226','20170227','20170301',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(733,832,4,'20170226','20170301','20170227',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(734,939,4,'20170226','20170228','20170301',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(735,20,3,'20170227','20170227',NULL,3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(736,184,4,'20170227','20170228','20170228',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(737,694,4,'20170227','20170301','20170228',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(738,124,4,'20170228','20170301','20170303',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(739,49,4,'20170228','20170301','20170302',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(740,1113,4,'20170228','20170301','20170302',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(741,119,4,'20170228','20170301','20170301',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(742,433,4,'20170228','20170301','20170301',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(743,137,4,'20170301','20170304','20170304',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(744,166,4,'20170301','20170302','20170302',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(745,698,4,'20170301','20170303','20170303',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(746,391,4,'20170302','20170304','20170305',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(747,87,4,'20170303','20170304','20170305',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(748,1072,4,'20170303','20170305','20170304',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(749,255,4,'20170304','20170307','20170305',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(750,232,4,'20170304','20170307','20170305',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(751,731,4,'20170305','20170308','20170307',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(752,335,4,'20170305','20170306','20170307',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(753,1201,4,'20170305','20170308','20170308',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(754,646,4,'20170306','20170307','20170308',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(755,531,4,'20170306','20170307','20170307',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(756,1143,4,'20170306','20170307','20170309',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(757,1336,4,'20170306','20170308','20170309',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(758,953,4,'20170306','20170308','20170307',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(759,284,4,'20170307','20170309','20170308',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(760,1104,4,'20170307','20170310','20170310',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(761,1291,4,'20170307','20170308','20170310',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(762,572,4,'20170308','20170309','20170309',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(763,842,4,'20170308','20170310','20170309',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(764,701,4,'20170309','20170310','20170312',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(765,1152,4,'20170309','20170311','20170312',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(766,141,4,'20170309','20170311','20170312',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(767,564,4,'20170309','20170310','20170311',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(768,841,4,'20170309','20170312','20170310',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(769,946,4,'20170309','20170311','20170311',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(770,135,4,'20170309','20170311','20170311',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(771,671,4,'20170311','20170314','20170312',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(772,448,4,'20170311','20170312','20170313',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(773,1385,4,'20170311','20170312','20170312',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(774,690,4,'20170312','20170314','20170314',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(775,968,4,'20170312','20170313','20170313',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(776,490,4,'20170313','20170315','20170316',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(777,496,4,'20170313','20170316','20170316',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(778,56,3,'20170315','20170315',NULL,3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(779,367,4,'20170315','20170316','20170318',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(780,592,4,'20170315','20170317','20170317',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(781,1018,4,'20170315','20170316','20170317',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(782,1298,4,'20170315','20170316','20170318',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(783,1343,4,'20170316','20170319','20170317',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(784,430,4,'20170316','20170319','20170319',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(785,794,4,'20170318','20170319','20170320',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(786,249,4,'20170318','20170320','20170319',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(787,700,4,'20170318','20170320','20170319',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(788,1363,4,'20170318','20170320','20170320',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(789,772,4,'20170319','20170320','20170320',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(790,1015,4,'20170319','20170321','20170322',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(791,432,4,'20170320','20170322','20170323',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(792,479,4,'20170322','20170323','20170324',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(793,653,4,'20170323','20170324','20170324',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(794,863,4,'20170323','20170325','20170324',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(795,992,4,'20170323','20170325','20170326',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(796,154,4,'20170323','20170326','20170325',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(797,374,4,'20170324','20170326','20170326',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(798,619,4,'20170326','20170328','20170329',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(799,607,4,'20170327','20170328','20170329',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(800,1057,4,'20170327','20170329','20170328',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(801,78,4,'20170328','20170329','20170330',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(802,340,4,'20170328','20170329','20170330',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(803,1105,4,'20170328','20170331','20170330',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(804,95,4,'20170329','20170331','20170330',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(805,420,4,'20170329','20170330','20170401',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(806,234,4,'20170330','20170331','20170331',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(807,1148,4,'20170330','20170401','20170402',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(808,315,4,'20170331','20170402','20170402',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(809,1222,4,'20170331','20170403','20170403',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(810,153,3,'20170401','20170401',NULL,3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(811,524,4,'20170401','20170404','20170404',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(812,1164,4,'20170401','20170402','20170403',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(813,1203,4,'20170401','20170403','20170402',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(814,629,4,'20170402','20170405','20170403',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(815,1251,4,'20170403','20170405','20170404',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(816,811,4,'20170403','20170405','20170405',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(817,301,4,'20170404','20170405','20170407',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(818,1319,4,'20170404','20170407','20170407',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(819,221,4,'20170404','20170407','20170405',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(820,725,4,'20170405','20170408','20170407',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(821,1181,4,'20170405','20170407','20170408',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(822,294,4,'20170406','20170408','20170409',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(823,415,4,'20170406','20170407','20170408',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(824,993,4,'20170407','20170409','20170410',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(825,10,4,'20170407','20170408','20170409',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(826,45,4,'20170407','20170410','20170410',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(827,666,4,'20170407','20170410','20170410',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(828,246,4,'20170409','20170410','20170412',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(829,674,4,'20170409','20170410','20170410',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(830,431,4,'20170411','20170414','20170412',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(831,1000,4,'20170411','20170412','20170412',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(832,1215,4,'20170411','20170412','20170412',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(833,406,4,'20170412','20170414','20170415',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(834,890,4,'20170412','20170413','20170415',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(835,940,4,'20170413','20170415','20170414',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(836,455,4,'20170413','20170416','20170414',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(837,948,4,'20170413','20170416','20170414',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(838,1395,4,'20170414','20170417','20170415',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(839,1332,4,'20170415','20170418','20170416',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(840,372,4,'20170415','20170416','20170416',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(841,428,4,'20170415','20170418','20170417',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(842,1133,4,'20170415','20170418','20170416',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(843,1059,4,'20170416','20170417','20170419',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(844,1436,4,'20170416','20170417','20170418',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(845,662,4,'20170417','20170418','20170418',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(846,715,4,'20170417','20170419','20170419',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(847,329,4,'20170418','20170419','20170419',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(848,597,4,'20170418','20170420','20170420',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(849,776,4,'20170419','20170420','20170421',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(850,1346,4,'20170419','20170422','20170422',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(851,1139,4,'20170420','20170421','20170422',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(852,13,4,'20170421','20170423','20170422',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(853,883,4,'20170421','20170424','20170424',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(854,177,4,'20170422','20170425','20170423',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(855,775,4,'20170422','20170423','20170425',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(856,477,4,'20170423','20170425','20170426',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(857,1402,4,'20170424','20170425','20170426',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(858,162,4,'20170425','20170427','20170428',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(859,644,4,'20170425','20170426','20170426',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(860,473,4,'20170427','20170429','20170428',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(861,1177,4,'20170427','20170429','20170430',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(862,1230,4,'20170427','20170430','20170429',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(863,446,4,'20170428','20170430','20170501',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(864,902,4,'20170428','20170430','20170429',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(865,974,4,'20170429','20170502','20170501',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(866,1410,4,'20170429','20170430','20170501',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(867,97,4,'20170501','20170503','20170502',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(868,868,4,'20170501','20170504','20170502',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(869,844,4,'20170501','20170504','20170502',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(870,1416,4,'20170501','20170504','20170502',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(871,358,4,'20170502','20170504','20170503',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(872,394,4,'20170503','20170506','20170506',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(873,829,4,'20170503','20170505','20170505',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(874,661,4,'20170504','20170505','20170506',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(875,386,4,'20170505','20170506','20170508',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(876,1046,4,'20170505','20170508','20170506',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(877,784,4,'20170506','20170507','20170508',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(878,224,4,'20170507','20170510','20170509',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(879,214,4,'20170508','20170509','20170509',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(880,1206,4,'20170508','20170511','20170510',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(881,1024,4,'20170508','20170511','20170511',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(882,196,4,'20170509','20170512','20170510',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(883,507,4,'20170511','20170513','20170514',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(884,871,4,'20170511','20170513','20170512',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(885,66,3,'20170513','20170513',NULL,3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(886,1396,4,'20170513','20170514','20170515',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(887,1195,4,'20170513','20170515','20170515',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(888,1038,4,'20170514','20170516','20170516',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(889,830,4,'20170514','20170517','20170515',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(890,171,4,'20170515','20170518','20170518',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(891,384,4,'20170515','20170518','20170516',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(892,651,4,'20170515','20170518','20170517',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(893,1293,4,'20170516','20170519','20170519',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(894,1320,4,'20170516','20170519','20170519',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(895,857,4,'20170518','20170521','20170519',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(896,376,4,'20170519','20170522','20170521',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(897,47,4,'20170520','20170521','20170521',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(898,352,4,'20170520','20170521','20170522',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(899,605,4,'20170520','20170521','20170521',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(900,971,4,'20170520','20170521','20170522',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(901,345,4,'20170521','20170522','20170524',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(902,1278,4,'20170521','20170524','20170522',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(903,179,4,'20170522','20170523','20170524',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(904,1020,4,'20170523','20170526','20170524',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(905,609,4,'20170523','20170526','20170524',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(906,877,4,'20170523','20170526','20170526',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(907,120,4,'20170524','20170526','20170527',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(908,402,4,'20170525','20170528','20170527',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(909,188,4,'20170526','20170527','20170528',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(910,342,4,'20170526','20170528','20170528',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(911,887,4,'20170526','20170529','20170529',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(912,519,4,'20170527','20170529','20170529',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(913,699,4,'20170527','20170529','20170529',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(914,1068,4,'20170528','20170531','20170531',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(915,215,4,'20170528','20170530','20170530',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(916,718,4,'20170528','20170529','20170529',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(917,881,4,'20170529','20170531','20170601',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(918,242,4,'20170530','20170531','20170531',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(919,781,4,'20170530','20170531','20170531',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(920,966,4,'20170530','20170601','20170602',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(921,628,4,'20170531','20170602','20170602',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(922,656,4,'20170531','20170601','20170603',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(923,769,4,'20170531','20170603','20170602',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(924,68,3,'20170602','20170602',NULL,3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(925,1316,4,'20170602','20170605','20170603',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(926,233,4,'20170603','20170605','20170606',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(927,1438,4,'20170603','20170605','20170606',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(928,957,4,'20170605','20170606','20170606',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(929,472,4,'20170605','20170606','20170608',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(930,1224,4,'20170605','20170606','20170606',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(931,631,4,'20170607','20170608','20170608',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(932,804,4,'20170607','20170608','20170609',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(933,909,4,'20170607','20170610','20170608',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(934,93,4,'20170609','20170610','20170612',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(935,43,3,'20170610','20170610',NULL,3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(936,265,4,'20170610','20170613','20170612',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(937,73,4,'20170611','20170614','20170613',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(938,129,4,'20170611','20170612','20170612',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(939,1407,4,'20170611','20170612','20170614',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(940,585,4,'20170612','20170614','20170613',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(941,736,4,'20170612','20170614','20170614',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(942,537,4,'20170613','20170616','20170615',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(943,1025,4,'20170613','20170615','20170615',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(944,138,4,'20170614','20170615','20170617',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(945,167,4,'20170614','20170615','20170616',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(946,525,4,'20170614','20170616','20170615',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(947,278,4,'20170615','20170618','20170617',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(948,618,4,'20170615','20170617','20170617',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(949,867,4,'20170616','20170618','20170617',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(950,142,4,'20170616','20170619','20170618',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(951,339,4,'20170616','20170619','20170619',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(952,355,4,'20170616','20170618','20170618',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(953,658,4,'20170616','20170618','20170617',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(954,611,4,'20170617','20170620','20170620',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(955,880,4,'20170617','20170619','20170618',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(956,1184,4,'20170617','20170619','20170620',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(957,722,4,'20170617','20170620','20170620',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(958,1276,4,'20170618','20170620','20170619',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(959,650,4,'20170618','20170621','20170621',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(960,1390,4,'20170618','20170619','20170619',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(961,82,4,'20170619','20170621','20170622',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(962,570,4,'20170619','20170622','20170620',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(963,1432,4,'20170619','20170621','20170621',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(964,404,4,'20170620','20170622','20170622',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(965,457,4,'20170620','20170622','20170623',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(966,389,4,'20170620','20170622','20170622',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(967,1323,4,'20170621','20170624','20170624',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(968,1403,4,'20170621','20170623','20170623',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(969,248,4,'20170621','20170624','20170622',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(970,836,4,'20170622','20170625','20170623',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(971,1426,4,'20170622','20170623','20170624',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(972,270,4,'20170623','20170624','20170625',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(973,238,4,'20170624','20170627','20170627',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(974,511,4,'20170624','20170627','20170627',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(975,1092,4,'20170625','20170627','20170628',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(976,1266,4,'20170625','20170628','20170627',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(977,400,4,'20170626','20170628','20170627',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(978,1123,4,'20170626','20170628','20170627',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(979,1190,4,'20170626','20170629','20170627',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(980,328,4,'20170626','20170628','20170627',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(981,687,4,'20170626','20170629','20170628',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(982,1423,4,'20170626','20170629','20170628',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(983,1158,4,'20170627','20170628','20170629',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(984,1287,4,'20170627','20170628','20170629',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(985,461,4,'20170630','20170702','20170701',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(986,556,4,'20170630','20170703','20170701',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(987,172,4,'20170702','20170704','20170704',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(988,436,4,'20170702','20170704','20170705',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(989,1145,4,'20170702','20170704','20170703',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(990,706,4,'20170704','20170707','20170707',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(991,751,4,'20170706','20170707','20170709',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(992,723,4,'20170707','20170710','20170709',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(993,1415,4,'20170709','20170711','20170711',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(994,419,4,'20170709','20170711','20170711',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(995,621,4,'20170711','20170713','20170714',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(996,915,4,'20170711','20170712','20170712',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(997,485,4,'20170711','20170713','20170714',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(998,219,4,'20170712','20170713','20170714',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(999,590,4,'20170712','20170713','20170714',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1000,645,4,'20170712','20170714','20170715',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1001,354,4,'20170713','20170716','20170715',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1002,1418,4,'20170714','20170716','20170716',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1003,503,4,'20170714','20170716','20170716',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1004,1389,4,'20170714','20170717','20170716',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1005,266,4,'20170715','20170717','20170716',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1006,1070,4,'20170715','20170718','20170717',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1007,1115,4,'20170716','20170717','20170717',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1008,1345,4,'20170716','20170718','20170718',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1009,1064,4,'20170716','20170719','20170719',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1010,8,3,'20170718','20170718',NULL,2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1011,495,4,'20170718','20170721','20170721',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1012,620,4,'20170718','20170720','20170720',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1013,174,4,'20170719','20170722','20170721',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1014,748,4,'20170719','20170721','20170721',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1015,799,4,'20170719','20170722','20170721',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1016,1417,4,'20170719','20170720','20170721',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1017,168,4,'20170720','20170721','20170723',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1018,290,4,'20170722','20170723','20170723',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1019,408,4,'20170722','20170723','20170724',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1020,16,3,'20170723','20170723',NULL,2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1021,125,4,'20170723','20170724','20170726',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1022,353,4,'20170723','20170726','20170724',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1023,356,4,'20170723','20170726','20170725',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1024,837,4,'20170723','20170725','20170726',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1025,1304,4,'20170723','20170726','20170726',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1026,1370,4,'20170726','20170728','20170729',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1027,588,4,'20170726','20170728','20170728',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1028,1273,4,'20170727','20170728','20170730',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1029,407,4,'20170729','20170730','20170801',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1030,161,4,'20170729','20170730','20170731',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1031,1308,4,'20170730','20170801','20170802',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1032,429,4,'20170730','20170802','20170801',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1033,582,4,'20170730','20170731','20170802',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1034,895,4,'20170730','20170731','20170731',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1035,1283,4,'20170730','20170802','20170802',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1036,1442,4,'20170730','20170801','20170731',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1037,1229,4,'20170731','20170802','20170803',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1038,1281,4,'20170731','20170801','20170803',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1039,1077,4,'20170802','20170804','20170803',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1040,1225,4,'20170804','20170807','20170805',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1041,70,4,'20170804','20170806','20170805',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1042,539,4,'20170806','20170807','20170807',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1043,1235,4,'20170806','20170809','20170808',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1044,1270,4,'20170807','20170810','20170808',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1045,185,4,'20170807','20170809','20170810',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1046,1134,4,'20170807','20170809','20170808',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1047,116,3,'20170808','20170808',NULL,3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1048,777,4,'20170808','20170810','20170809',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1049,194,4,'20170809','20170811','20170810',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1050,239,4,'20170809','20170812','20170812',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1051,209,4,'20170810','20170811','20170811',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1052,460,4,'20170810','20170812','20170813',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1053,1439,4,'20170810','20170811','20170812',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1054,189,4,'20170811','20170812','20170812',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1055,140,4,'20170812','20170815','20170815',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1056,325,4,'20170812','20170815','20170813',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1057,456,4,'20170812','20170815','20170813',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1058,782,4,'20170813','20170816','20170814',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1059,6,4,'20170814','20170817','20170817',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1060,182,4,'20170815','20170818','20170817',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1061,655,4,'20170815','20170818','20170818',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1062,1210,4,'20170815','20170817','20170818',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1063,198,4,'20170816','20170819','20170819',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1064,898,4,'20170816','20170818','20170819',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1065,25,4,'20170817','20170819','20170819',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1066,106,4,'20170817','20170820','20170819',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1067,225,4,'20170817','20170819','20170819',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1068,453,4,'20170817','20170820','20170819',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1069,493,4,'20170817','20170819','20170818',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1070,596,4,'20170817','20170820','20170818',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1071,602,4,'20170817','20170820','20170818',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1072,47,3,'20170818','20170818',NULL,1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1073,911,4,'20170818','20170819','20170821',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1074,11,3,'20170819','20170819',NULL,2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1075,1003,4,'20170819','20170821','20170822',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1076,42,4,'20170819','20170822','20170822',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1077,412,4,'20170819','20170820','20170821',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1078,793,4,'20170819','20170821','20170820',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1079,812,4,'20170819','20170820','20170820',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1080,1086,4,'20170819','20170820','20170820',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1081,1106,4,'20170819','20170822','20170822',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1082,1327,4,'20170820','20170822','20170821',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1083,1372,4,'20170820','20170823','20170823',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1084,2,4,'20170821','20170824','20170823',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1085,305,4,'20170821','20170823','20170823',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1086,220,4,'20170821','20170823','20170824',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1087,675,4,'20170822','20170823','20170825',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1088,1160,4,'20170822','20170823','20170823',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1089,46,3,'20170823','20170823',NULL,1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1090,1427,4,'20170824','20170826','20170826',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1091,1260,4,'20170824','20170825','20170825',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1092,40,4,'20170825','20170828','20170827',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1093,326,4,'20170825','20170828','20170826',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1094,828,4,'20170825','20170827','20170828',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1095,1382,4,'20170826','20170828','20170827',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1096,589,4,'20170827','20170829','20170829',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1097,1311,4,'20170827','20170830','20170828',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1098,752,4,'20170828','20170830','20170830',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1099,1128,4,'20170828','20170829','20170830',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1100,1392,4,'20170828','20170829','20170829',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1101,379,4,'20170829','20170830','20170830',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1102,1317,4,'20170829','20170831','20170831',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1103,1394,4,'20170831','20170902','20170902',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1104,268,4,'20170901','20170904','20170903',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1105,747,4,'20170901','20170904','20170903',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1106,1009,4,'20170902','20170904','20170904',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1107,1424,4,'20170902','20170905','20170905',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1108,735,4,'20170903','20170905','20170904',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1109,23,4,'20170903','20170904','20170904',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1110,912,4,'20170904','20170907','20170907',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1111,930,4,'20170904','20170906','20170905',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1112,798,4,'20170905','20170908','20170907',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1113,388,4,'20170906','20170908','20170907',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1114,1036,4,'20170906','20170908','20170908',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1115,1100,4,'20170907','20170909','20170909',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1116,52,4,'20170908','20170910','20170910',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1117,334,4,'20170908','20170910','20170910',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1118,1023,4,'20170908','20170911','20170911',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1119,749,4,'20170910','20170912','20170913',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1120,1269,4,'20170910','20170912','20170913',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1121,143,4,'20170911','20170913','20170912',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1122,1132,4,'20170912','20170914','20170914',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1123,598,4,'20170913','20170914','20170914',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1124,275,4,'20170913','20170914','20170916',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1125,945,4,'20170914','20170915','20170915',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1126,1213,4,'20170914','20170916','20170915',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1127,494,4,'20170915','20170916','20170916',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1128,936,4,'20170915','20170917','20170916',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1129,663,4,'20170917','20170918','20170920',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1130,69,4,'20170918','20170920','20170920',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1131,1178,4,'20170918','20170920','20170919',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1132,351,4,'20170919','20170920','20170920',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1133,517,4,'20170919','20170921','20170921',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1134,978,4,'20170919','20170922','20170920',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1135,1347,4,'20170919','20170921','20170920',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1136,1050,4,'20170920','20170921','20170921',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1137,810,4,'20170920','20170923','20170923',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1138,254,4,'20170921','20170923','20170922',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1139,1006,4,'20170921','20170922','20170923',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1140,1063,4,'20170921','20170922','20170922',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1141,1076,4,'20170922','20170923','20170924',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1142,554,4,'20170923','20170926','20170926',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1143,1087,4,'20170924','20170926','20170927',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1144,1414,4,'20170924','20170927','20170927',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1145,617,4,'20170925','20170927','20170926',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1146,757,4,'20170925','20170926','20170928',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1147,1344,4,'20170925','20170926','20170927',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1148,1379,4,'20170925','20170926','20170927',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1149,787,4,'20170927','20170930','20170930',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1150,1183,4,'20170928','20171001','20170930',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1151,708,4,'20170929','20170930','20170930',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1152,1244,4,'20170929','20171002','20171001',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1153,720,4,'20170930','20171003','20171003',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1154,789,4,'20170930','20171003','20171003',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1155,865,4,'20170930','20171001','20171001',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1156,869,4,'20170930','20171003','20171003',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1157,24,4,'20171001','20171003','20171004',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1158,889,4,'20171001','20171003','20171002',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1159,1221,4,'20171001','20171002','20171003',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1160,1262,4,'20171001','20171002','20171004',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1161,41,4,'20171001','20171004','20171002',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1162,888,4,'20171001','20171003','20171003',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1163,934,4,'20171001','20171002','20171002',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1164,1067,4,'20171001','20171002','20171003',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1165,652,4,'20171002','20171003','20171005',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1166,286,4,'20171003','20171004','20171004',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1167,900,4,'20171004','20171007','20171006',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1168,1031,4,'20171004','20171005','20171006',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1169,1421,4,'20171004','20171006','20171007',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1170,534,4,'20171005','20171007','20171006',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1171,826,4,'20171005','20171006','20171008',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1172,1339,4,'20171007','20171010','20171009',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1173,548,4,'20171008','20171010','20171009',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1174,1109,4,'20171008','20171010','20171011',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1175,292,4,'20171009','20171011','20171012',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1176,1111,4,'20171010','20171013','20171011',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1177,21,3,'20171012','20171012',NULL,3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1178,771,4,'20171012','20171015','20171013',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1179,1150,4,'20171012','20171015','20171015',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1180,1065,4,'20171013','20171016','20171016',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1181,1022,4,'20171013','20171016','20171015',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1182,1422,4,'20171013','20171014','20171016',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1183,216,4,'20171014','20171017','20171017',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1184,369,4,'20171014','20171015','20171016',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1185,960,4,'20171014','20171016','20171017',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1186,1120,4,'20171014','20171016','20171015',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1187,486,4,'20171015','20171018','20171016',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1188,647,4,'20171015','20171018','20171017',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1189,1090,4,'20171015','20171017','20171018',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1190,34,4,'20171016','20171019','20171017',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1191,186,4,'20171017','20171018','20171018',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1192,1114,4,'20171017','20171019','20171018',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1193,1412,4,'20171017','20171019','20171019',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1194,192,4,'20171019','20171022','20171022',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1195,229,4,'20171019','20171021','20171021',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1196,508,4,'20171019','20171021','20171020',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1197,269,4,'20171021','20171023','20171023',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1198,1289,4,'20171022','20171024','20171024',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1199,318,4,'20171023','20171024','20171026',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1200,48,4,'20171023','20171025','20171026',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1201,201,4,'20171023','20171024','20171024',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1202,593,4,'20171024','20171025','20171025',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1203,1191,4,'20171025','20171027','20171026',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1204,1277,4,'20171025','20171028','20171028',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1205,1091,4,'20171026','20171028','20171028',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1206,222,4,'20171026','20171029','20171029',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1207,1002,4,'20171026','20171028','20171027',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1208,1226,4,'20171026','20171028','20171027',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1209,1342,4,'20171026','20171027','20171029',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1210,730,4,'20171026','20171027','20171029',3,8);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1211,19,4,'20171027','20171028','20171029',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1212,213,4,'20171027','20171030','20171029',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1213,669,4,'20171027','20171029','20171029',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1214,783,4,'20171028','20171029','20171029',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1215,807,4,'20171028','20171031','20171030',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1216,886,4,'20171028','20171030','20171029',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1217,1155,4,'20171028','20171031','20171030',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1218,1017,4,'20171030','20171101','20171031',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1219,840,4,'20171030','20171102','20171102',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1220,803,4,'20171031','20171103','20171103',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1221,1290,4,'20171031','20171102','20171101',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1222,482,4,'20171101','20171104','20171103',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1223,1207,4,'20171102','20171103','20171103',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1224,544,4,'20171103','20171104','20171104',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1225,768,4,'20171104','20171105','20171107',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1226,226,4,'20171104','20171107','20171106',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1227,702,4,'20171104','20171107','20171106',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1228,1041,4,'20171104','20171106','20171106',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1229,89,4,'20171105','20171108','20171106',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1230,1107,4,'20171105','20171106','20171107',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1231,1180,4,'20171105','20171107','20171106',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1232,665,4,'20171106','20171107','20171109',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1233,462,4,'20171106','20171107','20171108',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1234,19,3,'20171107','20171107',NULL,2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1235,210,4,'20171107','20171108','20171109',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1236,243,4,'20171108','20171111','20171109',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1237,571,4,'20171109','20171112','20171111',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1238,998,4,'20171109','20171110','20171111',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1239,1197,4,'20171109','20171110','20171111',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1240,903,4,'20171110','20171111','20171111',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1241,1170,4,'20171110','20171112','20171111',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1242,303,4,'20171111','20171112','20171112',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1243,346,4,'20171111','20171113','20171114',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1244,333,4,'20171112','20171114','20171113',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1245,1166,4,'20171113','20171116','20171114',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1246,1329,4,'20171113','20171116','20171116',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1247,426,4,'20171116','20171118','20171117',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1248,1367,4,'20171116','20171117','20171118',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1249,545,4,'20171117','20171118','20171120',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1250,1188,4,'20171117','20171119','20171118',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1251,289,4,'20171117','20171119','20171119',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1252,110,4,'20171118','20171120','20171121',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1253,44,4,'20171118','20171121','20171121',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1254,1098,4,'20171118','20171119','20171119',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1255,375,4,'20171119','20171120','20171121',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1256,458,4,'20171119','20171120','20171122',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1257,1136,4,'20171119','20171122','20171120',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1258,1099,4,'20171120','20171121','20171122',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1259,4,3,'20171121','20171121',NULL,2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1260,1117,4,'20171122','20171123','20171124',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1261,435,4,'20171123','20171125','20171124',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1262,509,4,'20171123','20171126','20171126',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1263,1408,4,'20171123','20171126','20171126',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1264,113,4,'20171124','20171127','20171125',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1265,950,4,'20171124','20171127','20171127',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1266,387,4,'20171125','20171128','20171127',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1267,467,4,'20171125','20171126','20171126',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1268,774,4,'20171126','20171128','20171129',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1269,1236,4,'20171126','20171129','20171129',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1270,1388,4,'20171126','20171129','20171129',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1271,734,4,'20171127','20171130','20171130',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1272,935,4,'20171127','20171129','20171130',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1273,1268,4,'20171127','20171129','20171129',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1274,1364,4,'20171128','20171129','20171201',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1275,165,4,'20171129','20171201','20171130',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1276,893,4,'20171130','20171203','20171202',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1277,227,4,'20171201','20171204','20171202',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1278,980,4,'20171201','20171202','20171204',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1279,1014,4,'20171201','20171204','20171203',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1280,123,4,'20171201','20171203','20171203',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1281,1060,4,'20171202','20171205','20171205',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1282,320,4,'20171203','20171205','20171205',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1283,85,4,'20171204','20171207','20171207',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1284,128,4,'20171204','20171206','20171207',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1285,262,4,'20171204','20171207','20171207',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1286,1033,4,'20171204','20171207','20171206',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1287,279,4,'20171207','20171210','20171209',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1288,778,4,'20171207','20171210','20171209',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1289,1292,4,'20171208','20171211','20171210',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1290,967,4,'20171208','20171210','20171210',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1291,1284,4,'20171209','20171211','20171212',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1292,285,4,'20171210','20171213','20171211',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1293,1401,4,'20171210','20171212','20171211',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1294,947,4,'20171211','20171213','20171214',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1295,37,4,'20171211','20171212','20171214',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1296,231,4,'20171214','20171217','20171215',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1297,108,4,'20171214','20171217','20171216',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1298,533,4,'20171214','20171217','20171216',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1299,1216,4,'20171215','20171218','20171216',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1300,824,4,'20171215','20171217','20171217',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1301,1088,4,'20171216','20171219','20171219',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1302,322,4,'20171216','20171218','20171219',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1303,878,4,'20171216','20171219','20171218',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1304,1409,4,'20171216','20171217','20171217',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1305,257,4,'20171217','20171219','20171218',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1306,28,4,'20171220','20171221','20171222',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1307,1384,4,'20171222','20171223','20171225',1,2);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1308,713,4,'20171222','20171224','20171224',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1309,821,4,'20171222','20171225','20171224',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1310,444,4,'20171224','20171225','20171226',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1311,1021,4,'20171224','20171226','20171227',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1312,311,4,'20171225','20171228','20171226',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1313,1294,4,'20171225','20171227','20171227',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1314,1027,4,'20171225','20171226','20171228',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1315,931,4,'20171225','20171227','20171228',3,9);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1316,846,4,'20171226','20171229','20171227',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1317,418,4,'20171227','20171228','20171229',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1318,75,4,'20171227','20171230','20171229',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1319,604,4,'20171227','20171230','20171230',2,6);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1320,244,4,'20171228','20171230','20171229',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1321,217,4,'20171230','20171231','20171231',1,3);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1322,39,4,'20171231','20180103','20180102',2,7);
-INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1323,273,4,'20171231','20180101','20180101',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1,259,4,'20200101','20200103','20200103',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(2,1212,4,'20200101','20200104','20200103',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(3,523,4,'20200102','20200105','20200103',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(4,175,4,'20200103','20200104','20200105',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(5,1324,4,'20200103','20200106','20200106',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(6,94,4,'20200104','20200107','20200105',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(7,324,4,'20200104','20200107','20200105',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(8,1204,4,'20200104','20200105','20200105',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(9,60,4,'20200105','20200108','20200108',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(10,442,4,'20200105','20200106','20200106',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(11,1326,4,'20200105','20200108','20200107',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(12,91,4,'20200106','20200108','20200109',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(13,873,4,'20200108','20200111','20200111',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(14,258,4,'20200109','20200111','20200112',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(15,450,4,'20200109','20200110','20200112',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(16,552,4,'20200112','20200115','20200115',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(17,1175,4,'20200112','20200114','20200114',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(18,541,4,'20200114','20200117','20200115',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(19,696,4,'20200114','20200117','20200116',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(20,923,4,'20200114','20200116','20200117',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(21,1250,4,'20200115','20200116','20200118',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(22,1035,4,'20200116','20200118','20200117',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(23,1149,4,'20200116','20200119','20200119',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(24,636,4,'20200118','20200120','20200119',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(25,657,4,'20200118','20200121','20200121',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(26,1280,4,'20200118','20200121','20200119',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(27,57,4,'20200119','20200121','20200120',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(28,252,4,'20200119','20200120','20200121',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(29,437,4,'20200120','20200122','20200121',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(30,1348,4,'20200120','20200121','20200121',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(31,1238,4,'20200120','20200122','20200122',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(32,1259,4,'20200121','20200124','20200122',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(33,236,4,'20200121','20200122','20200122',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(34,80,4,'20200122','20200125','20200123',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(35,813,4,'20200122','20200125','20200124',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(36,1321,4,'20200123','20200124','20200124',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(37,164,4,'20200125','20200128','20200126',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(38,583,4,'20200125','20200127','20200126',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(39,1296,4,'20200125','20200126','20200126',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(40,348,4,'20200127','20200128','20200129',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(41,979,4,'20200127','20200130','20200129',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(42,1095,4,'20200127','20200128','20200130',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(43,1434,4,'20200127','20200128','20200130',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(44,861,4,'20200128','20200131','20200130',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(45,1220,4,'20200128','20200131','20200131',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(46,746,4,'20200129','20200131','20200131',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(47,1234,4,'20200129','20200130','20200131',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(48,1012,4,'20200130','20200201','20200202',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(49,608,4,'20200131','20200201','20200202',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(50,872,4,'20200131','20200203','20200202',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(51,1047,4,'20200201','20200202','20200203',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(52,767,4,'20200203','20200204','20200205',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(53,965,4,'20200203','20200204','20200205',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(54,535,4,'20200204','20200207','20200207',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(55,1173,4,'20200204','20200207','20200206',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(56,1241,4,'20200204','20200206','20200207',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(57,1305,4,'20200204','20200206','20200206',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(58,504,4,'20200205','20200207','20200207',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(59,563,4,'20200205','20200207','20200206',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(60,151,4,'20200206','20200208','20200207',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(61,277,4,'20200206','20200209','20200209',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(62,208,4,'20200207','20200210','20200210',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(63,1075,4,'20200207','20200209','20200209',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(64,1185,4,'20200207','20200208','20200209',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(65,996,4,'20200208','20200209','20200211',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(66,1253,4,'20200209','20200212','20200212',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(67,526,4,'20200209','20200211','20200210',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(68,381,4,'20200210','20200211','20200213',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(69,1413,4,'20200210','20200212','20200211',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(70,50,3,'20200211','20200211',NULL,3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(71,797,4,'20200211','20200214','20200212',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(72,1386,4,'20200212','20200215','20200213',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(73,612,4,'20200212','20200215','20200214',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(74,264,4,'20200213','20200215','20200215',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(75,587,4,'20200214','20200215','20200217',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(76,9,3,'20200216','20200216',NULL,2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(77,385,4,'20200216','20200219','20200219',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(78,1182,4,'20200216','20200218','20200219',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(79,529,4,'20200217','20200220','20200220',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(80,397,4,'20200217','20200220','20200219',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(81,521,4,'20200217','20200219','20200218',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(82,1223,4,'20200218','20200221','20200220',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(83,393,4,'20200219','20200220','20200220',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(84,317,4,'20200220','20200222','20200221',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(85,1174,4,'20200220','20200223','20200221',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(86,276,4,'20200221','20200222','20200223',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(87,516,4,'20200221','20200222','20200223',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(88,1069,4,'20200221','20200222','20200223',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(89,668,4,'20200221','20200224','20200224',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(90,414,4,'20200223','20200225','20200224',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(91,648,4,'20200225','20200227','20200228',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(92,1309,4,'20200225','20200228','20200228',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(93,1328,4,'20200226','20200228','20200227',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(94,929,4,'20200227','20200228','20200229',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(95,218,4,'20200227','20200229','20200228',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(96,1094,4,'20200227','20200229','20200228',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(97,204,4,'20200228','20200229','20200301',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(98,1194,4,'20200228','20200229','20200229',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(99,1165,4,'20200229','20200301','20200303',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(100,1237,4,'20200301','20200304','20200303',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(101,271,4,'20200301','20200304','20200304',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(102,336,4,'20200302','20200305','20200303',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(103,991,4,'20200303','20200306','20200305',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(104,7,4,'20200303','20200305','20200305',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(105,306,4,'20200303','20200305','20200304',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(106,422,4,'20200304','20200305','20200305',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(107,633,4,'20200306','20200309','20200309',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(108,12,4,'20200306','20200309','20200307',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(109,1255,4,'20200306','20200309','20200309',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(110,677,4,'20200306','20200308','20200309',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(111,630,4,'20200307','20200310','20200310',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(112,469,4,'20200308','20200311','20200310',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(113,1078,4,'20200308','20200311','20200311',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(114,1431,4,'20200308','20200310','20200311',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(115,1369,4,'20200309','20200311','20200311',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(116,471,4,'20200310','20200311','20200311',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(117,740,4,'20200310','20200313','20200311',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(118,577,4,'20200312','20200314','20200313',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(119,925,4,'20200312','20200314','20200314',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(120,327,4,'20200314','20200315','20200317',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(121,755,4,'20200314','20200315','20200316',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(122,786,4,'20200314','20200316','20200315',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(123,766,4,'20200315','20200318','20200317',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(124,403,4,'20200316','20200318','20200317',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(125,685,4,'20200316','20200319','20200317',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(126,1365,4,'20200316','20200318','20200318',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(127,484,4,'20200317','20200318','20200319',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(128,86,4,'20200318','20200320','20200321',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(129,84,4,'20200319','20200321','20200321',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(130,1049,4,'20200319','20200322','20200320',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(131,316,4,'20200319','20200322','20200320',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(132,46,4,'20200320','20200322','20200323',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(133,409,4,'20200320','20200322','20200321',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(134,679,4,'20200320','20200321','20200321',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(135,1354,4,'20200321','20200323','20200323',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(136,1192,4,'20200321','20200324','20200323',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(137,370,4,'20200323','20200326','20200325',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(138,438,4,'20200323','20200324','20200325',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(139,710,4,'20200323','20200324','20200326',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(140,1264,4,'20200323','20200326','20200326',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(141,557,4,'20200325','20200327','20200326',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(142,170,4,'20200326','20200327','20200327',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(143,693,4,'20200326','20200328','20200328',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(144,1124,4,'20200326','20200329','20200329',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(145,366,4,'20200327','20200329','20200330',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(146,288,4,'20200328','20200330','20200330',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(147,55,4,'20200328','20200331','20200331',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(148,714,4,'20200328','20200330','20200330',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(149,763,4,'20200328','20200330','20200329',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(150,332,4,'20200329','20200331','20200401',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(151,926,4,'20200329','20200401','20200331',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(152,76,4,'20200329','20200330','20200330',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(153,498,4,'20200330','20200402','20200401',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(154,1286,4,'20200331','20200401','20200401',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(155,371,4,'20200402','20200403','20200404',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(156,357,4,'20200403','20200406','20200405',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(157,43,4,'20200403','20200406','20200406',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(158,117,3,'20200404','20200404',NULL,3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(159,32,4,'20200404','20200406','20200406',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(160,205,4,'20200404','20200406','20200406',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(161,251,4,'20200404','20200407','20200405',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(162,31,4,'20200406','20200408','20200407',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(163,1325,4,'20200406','20200407','20200407',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(164,610,4,'20200407','20200408','20200409',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(165,574,4,'20200408','20200410','20200410',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(166,338,4,'20200408','20200411','20200411',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(167,1034,4,'20200408','20200409','20200411',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(168,1147,4,'20200409','20200412','20200411',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(169,99,4,'20200410','20200411','20200411',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(170,1200,4,'20200410','20200411','20200413',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(171,237,4,'20200411','20200414','20200414',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(172,1079,4,'20200411','20200412','20200414',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(173,117,4,'20200411','20200414','20200413',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(174,1361,4,'20200412','20200413','20200415',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(175,951,4,'20200413','20200414','20200414',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(176,643,4,'20200415','20200416','20200417',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(177,121,4,'20200416','20200419','20200419',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(178,756,4,'20200416','20200417','20200418',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(179,616,4,'20200417','20200419','20200419',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(180,918,4,'20200417','20200420','20200419',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(181,459,4,'20200418','20200420','20200420',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(182,854,4,'20200418','20200419','20200420',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(183,22,4,'20200419','20200420','20200420',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(184,134,4,'20200419','20200421','20200422',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(185,24,3,'20200420','20200420',NULL,1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(186,1127,4,'20200421','20200422','20200424',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(187,183,4,'20200422','20200423','20200424',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(188,390,4,'20200422','20200423','20200425',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(189,1288,4,'20200423','20200424','20200426',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(190,98,4,'20200423','20200425','20200425',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(191,919,4,'20200427','20200428','20200428',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(192,728,4,'20200427','20200428','20200429',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(193,1366,4,'20200428','20200430','20200430',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(194,558,4,'20200428','20200430','20200501',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(195,727,4,'20200428','20200501','20200501',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(196,1247,4,'20200428','20200430','20200501',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(197,127,4,'20200430','20200503','20200503',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(198,640,4,'20200501','20200504','20200503',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(199,760,4,'20200501','20200504','20200504',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(200,1074,4,'20200501','20200503','20200503',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(201,280,4,'20200501','20200504','20200502',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(202,600,4,'20200503','20200505','20200504',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(203,1102,4,'20200503','20200505','20200506',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(204,591,4,'20200504','20200507','20200506',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(205,635,4,'20200504','20200505','20200506',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(206,743,4,'20200504','20200506','20200505',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(207,105,4,'20200505','20200507','20200507',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(208,815,4,'20200506','20200507','20200509',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(209,514,4,'20200507','20200508','20200508',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(210,943,4,'20200507','20200508','20200509',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(211,1140,4,'20200507','20200509','20200508',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(212,1373,4,'20200508','20200509','20200511',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(213,788,4,'20200508','20200509','20200509',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(214,363,4,'20200510','20200512','20200511',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(215,1420,4,'20200510','20200513','20200512',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(216,267,4,'20200511','20200514','20200513',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(217,716,4,'20200511','20200512','20200514',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(218,1179,4,'20200512','20200514','20200514',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(219,1338,4,'20200512','20200515','20200515',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(220,1358,4,'20200512','20200514','20200515',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(221,1218,4,'20200513','20200516','20200514',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(222,51,4,'20200513','20200516','20200514',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(223,1368,4,'20200515','20200516','20200517',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(224,157,4,'20200517','20200518','20200519',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(225,307,4,'20200517','20200520','20200519',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(226,501,4,'20200517','20200519','20200520',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(227,489,4,'20200517','20200518','20200520',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(228,615,4,'20200517','20200520','20200520',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(229,742,4,'20200519','20200521','20200520',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(230,1167,4,'20200519','20200520','20200521',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(231,1257,4,'20200519','20200522','20200521',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(232,1360,4,'20200520','20200523','20200523',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(233,737,4,'20200521','20200522','20200524',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(234,1435,4,'20200522','20200524','20200524',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(235,649,4,'20200524','20200525','20200525',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(236,206,4,'20200525','20200527','20200526',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(237,1351,4,'20200525','20200526','20200527',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(238,1350,4,'20200526','20200529','20200529',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(239,13,3,'20200527','20200527',NULL,3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(240,65,4,'20200527','20200529','20200530',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(241,1082,4,'20200527','20200529','20200529',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(242,1168,4,'20200527','20200530','20200530',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(243,802,4,'20200527','20200530','20200528',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(244,956,4,'20200528','20200529','20200529',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(245,223,4,'20200529','20200531','20200530',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(246,17,3,'20200530','20200530',NULL,2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(247,928,4,'20200530','20200601','20200601',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(248,1376,4,'20200530','20200601','20200531',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(249,145,4,'20200601','20200604','20200604',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(250,150,4,'20200601','20200602','20200604',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(251,851,4,'20200601','20200604','20200604',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(252,66,4,'20200601','20200604','20200602',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(253,1267,4,'20200602','20200605','20200605',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(254,510,4,'20200603','20200606','20200605',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(255,801,4,'20200603','20200606','20200605',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(256,26,4,'20200604','20200605','20200607',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(257,1314,4,'20200605','20200606','20200608',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(258,107,4,'20200606','20200607','20200607',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(259,413,4,'20200606','20200609','20200609',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(260,632,4,'20200606','20200608','20200608',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(261,1045,4,'20200608','20200610','20200609',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(262,579,4,'20200608','20200611','20200610',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(263,1322,4,'20200609','20200610','20200612',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(264,5,3,'20200610','20200610',NULL,1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(265,682,4,'20200610','20200612','20200611',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(266,933,4,'20200610','20200613','20200613',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(267,282,4,'20200611','20200614','20200614',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(268,540,4,'20200611','20200614','20200612',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(269,764,4,'20200612','20200613','20200615',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(270,879,4,'20200612','20200615','20200613',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(271,350,4,'20200613','20200616','20200614',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(272,497,4,'20200615','20200618','20200616',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(273,1340,4,'20200616','20200619','20200617',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(274,411,4,'20200617','20200620','20200618',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(275,1341,4,'20200617','20200619','20200618',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(276,1227,4,'20200618','20200619','20200619',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(277,546,4,'20200619','20200620','20200620',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(278,1301,4,'20200620','20200623','20200621',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(279,378,4,'20200621','20200622','20200622',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(280,638,4,'20200621','20200622','20200623',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(281,800,4,'20200621','20200622','20200623',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(282,159,4,'20200622','20200625','20200625',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(283,181,4,'20200623','20200626','20200626',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(284,1356,4,'20200623','20200625','20200625',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(285,319,4,'20200625','20200626','20200627',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(286,59,4,'20200625','20200626','20200626',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(287,133,4,'20200625','20200626','20200627',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(288,780,4,'20200625','20200628','20200628',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(289,849,4,'20200627','20200628','20200630',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(290,202,4,'20200628','20200629','20200630',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(291,158,4,'20200629','20200630','20200701',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(292,360,4,'20200629','20200630','20200702',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(293,573,4,'20200630','20200703','20200702',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(294,732,4,'20200701','20200702','20200702',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(295,1130,4,'20200701','20200704','20200704',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(296,1245,4,'20200704','20200707','20200706',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(297,1425,4,'20200704','20200705','20200706',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(298,885,4,'20200704','20200707','20200707',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(299,281,4,'20200705','20200706','20200707',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(300,1205,4,'20200705','20200708','20200708',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(301,17,4,'20200706','20200709','20200708',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(302,1375,4,'20200706','20200707','20200709',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(303,36,4,'20200707','20200708','20200709',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(304,230,4,'20200707','20200708','20200708',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(305,705,4,'20200707','20200708','20200708',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(306,424,4,'20200709','20200710','20200712',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(307,695,4,'20200709','20200711','20200711',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(308,156,4,'20200711','20200712','20200714',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(309,211,4,'20200711','20200713','20200713',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(310,627,4,'20200712','20200713','20200713',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(311,1400,4,'20200712','20200714','20200713',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(312,299,4,'20200713','20200715','20200716',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(313,565,4,'20200714','20200715','20200715',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(314,1019,4,'20200715','20200717','20200717',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(315,1263,4,'20200716','20200719','20200717',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(316,670,4,'20200717','20200720','20200719',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(317,795,4,'20200717','20200720','20200719',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(318,1141,4,'20200717','20200719','20200720',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(319,941,4,'20200718','20200721','20200721',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(320,1428,4,'20200719','20200720','20200721',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(321,568,4,'20200719','20200722','20200721',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(322,924,4,'20200719','20200722','20200720',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(323,1243,4,'20200719','20200722','20200721',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(324,480,4,'20200720','20200722','20200723',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(325,848,4,'20200720','20200721','20200721',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(326,1337,4,'20200720','20200721','20200722',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(327,83,4,'20200721','20200724','20200722',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(328,528,4,'20200723','20200726','20200725',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(329,274,4,'20200724','20200727','20200726',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(330,622,4,'20200724','20200727','20200727',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(331,642,4,'20200724','20200726','20200725',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(332,659,4,'20200724','20200726','20200726',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(333,779,4,'20200725','20200727','20200726',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(334,1112,4,'20200725','20200728','20200727',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(335,1193,4,'20200725','20200727','20200726',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(336,1030,4,'20200726','20200729','20200727',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(337,1252,4,'20200726','20200727','20200728',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(338,1333,4,'20200728','20200729','20200730',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(339,1110,4,'20200728','20200731','20200729',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(340,963,4,'20200729','20200730','20200731',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(341,1357,4,'20200731','20200803','20200801',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(342,806,4,'20200731','20200801','20200803',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(343,961,4,'20200731','20200802','20200801',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(344,750,4,'20200801','20200803','20200802',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(345,1299,4,'20200801','20200804','20200803',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(346,584,4,'20200801','20200803','20200802',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(347,1004,4,'20200802','20200803','20200805',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(348,907,4,'20200802','20200805','20200804',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(349,30,3,'20200803','20200803',NULL,1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(350,31,3,'20200803','20200803',NULL,1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(351,1307,4,'20200803','20200806','20200804',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(352,16,4,'20200803','20200804','20200806',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(353,1387,4,'20200803','20200806','20200806',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(354,551,4,'20200803','20200805','20200806',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(355,1011,4,'20200803','20200805','20200805',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(356,1189,4,'20200804','20200807','20200806',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(357,14,3,'20200805','20200805',NULL,3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(358,1042,4,'20200805','20200807','20200807',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(359,441,4,'20200807','20200810','20200810',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(360,1300,4,'20200807','20200809','20200810',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(361,994,4,'20200808','20200809','20200811',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(362,187,4,'20200809','20200811','20200811',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(363,834,4,'20200811','20200812','20200813',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(364,373,4,'20200812','20200814','20200813',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(365,981,4,'20200813','20200814','20200815',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(366,1054,4,'20200813','20200814','20200814',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(367,527,4,'20200814','20200815','20200815',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(368,995,4,'20200814','20200815','20200817',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(369,1285,4,'20200815','20200818','20200818',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(370,758,4,'20200815','20200818','20200818',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(371,891,4,'20200815','20200816','20200818',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(372,132,4,'20200816','20200818','20200818',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(373,337,4,'20200816','20200819','20200817',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(374,1313,4,'20200817','20200819','20200818',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(375,536,4,'20200817','20200820','20200820',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(376,825,4,'20200817','20200819','20200818',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(377,1355,4,'20200817','20200819','20200820',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(378,475,4,'20200817','20200820','20200820',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(379,954,4,'20200818','20200821','20200821',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(380,1156,4,'20200819','20200820','20200821',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(381,1297,4,'20200819','20200821','20200821',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(382,199,4,'20200820','20200823','20200823',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(383,331,4,'20200820','20200823','20200822',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(384,410,4,'20200820','20200822','20200823',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(385,1274,4,'20200820','20200823','20200822',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(386,1362,4,'20200820','20200823','20200823',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(387,451,4,'20200820','20200821','20200821',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(388,1080,4,'20200821','20200824','20200823',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(389,53,4,'20200822','20200824','20200825',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(390,576,4,'20200822','20200824','20200825',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(391,61,3,'20200823','20200823',NULL,3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(392,176,4,'20200823','20200826','20200824',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(393,368,4,'20200825','20200826','20200827',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(394,522,4,'20200826','20200828','20200829',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(395,144,4,'20200826','20200827','20200829',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(396,542,4,'20200827','20200830','20200829',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(397,1437,4,'20200828','20200831','20200829',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(398,447,4,'20200829','20200830','20200901',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(399,1001,4,'20200829','20200901','20200901',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(400,1295,4,'20200829','20200830','20200831',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(401,103,4,'20200830','20200902','20200901',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(402,1335,4,'20200830','20200901','20200831',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(403,578,4,'20200831','20200901','20200902',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(404,396,4,'20200831','20200903','20200901',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(405,603,4,'20200831','20200901','20200901',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(406,1380,4,'20200831','20200902','20200901',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(407,77,3,'20200901','20200901',NULL,3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(408,1071,4,'20200901','20200902','20200902',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(409,416,4,'20200901','20200904','20200904',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(410,1151,4,'20200901','20200903','20200902',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(411,261,4,'20200902','20200904','20200904',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(412,1202,4,'20200902','20200904','20200904',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(413,717,4,'20200902','20200905','20200903',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(414,917,4,'20200903','20200906','20200906',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(415,1265,4,'20200903','20200906','20200906',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(416,1377,4,'20200903','20200904','20200906',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(417,359,4,'20200904','20200905','20200906',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(418,88,4,'20200904','20200905','20200905',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(419,14,4,'20200904','20200907','20200906',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(420,72,4,'20200905','20200906','20200907',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(421,240,4,'20200905','20200906','20200908',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(422,398,4,'20200906','20200907','20200909',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(423,1397,4,'20200906','20200909','20200909',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(424,67,4,'20200908','20200911','20200911',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(425,843,4,'20200908','20200911','20200911',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(426,944,4,'20200908','20200910','20200910',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(427,434,4,'20200909','20200910','20200911',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(428,1039,4,'20200909','20200912','20200910',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(429,153,4,'20200910','20200912','20200912',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(430,272,4,'20200911','20200913','20200912',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(431,1217,4,'20200911','20200912','20200912',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(432,169,4,'20200912','20200915','20200914',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(433,1062,4,'20200912','20200915','20200913',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(434,726,4,'20200913','20200915','20200914',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(435,77,4,'20200914','20200915','20200916',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(436,791,4,'20200916','20200919','20200919',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(437,1085,4,'20200916','20200918','20200918',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(438,314,4,'20200916','20200919','20200918',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(439,149,4,'20200917','20200920','20200918',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(440,882,4,'20200917','20200918','20200919',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(441,704,4,'20200918','20200919','20200919',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(442,667,4,'20200918','20200921','20200921',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(443,1371,4,'20200918','20200919','20200920',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(444,30,4,'20200919','20200920','20200921',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(445,362,4,'20200919','20200922','20200922',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(446,399,4,'20200919','20200921','20200920',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(447,808,4,'20200920','20200923','20200922',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(448,101,4,'20200921','20200922','20200924',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(449,492,4,'20200921','20200924','20200922',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(450,575,4,'20200921','20200924','20200923',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(451,1146,4,'20200921','20200923','20200922',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(452,997,4,'20200922','20200923','20200924',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(453,1028,4,'20200922','20200924','20200925',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(454,988,4,'20200923','20200925','20200926',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(455,1055,4,'20200923','20200924','20200924',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(456,1061,4,'20200923','20200926','20200925',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(457,1349,4,'20200924','20200927','20200927',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(458,197,4,'20200925','20200928','20200926',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(459,874,4,'20200925','20200928','20200926',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(460,691,4,'20200925','20200927','20200926',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(461,853,4,'20200926','20200927','20200927',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(462,852,4,'20200927','20200928','20200929',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(463,964,4,'20200927','20200928','20200928',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(464,74,4,'20200928','20200930','20200929',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(465,1198,4,'20200928','20201001','20201001',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(466,1440,4,'20200928','20200929','20201001',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(467,555,4,'20200928','20200930','20200930',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(468,1261,4,'20200929','20201002','20200930',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(469,1089,4,'20200929','20201002','20201002',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(470,641,4,'20200930','20201002','20201002',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(471,697,4,'20200930','20201002','20201001',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(472,468,4,'20200930','20201001','20201001',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(473,549,4,'20200930','20201002','20201003',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(474,553,4,'20201001','20201004','20201004',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(475,241,4,'20201001','20201004','20201003',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(476,559,4,'20201001','20201004','20201002',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(477,449,4,'20201002','20201005','20201004',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(478,304,4,'20201002','20201005','20201003',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(479,984,4,'20201003','20201004','20201004',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(480,686,4,'20201004','20201007','20201005',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(481,481,4,'20201004','20201007','20201006',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(482,513,4,'20201005','20201006','20201006',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(483,703,4,'20201006','20201007','20201009',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(484,421,4,'20201006','20201009','20201007',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(485,465,4,'20201006','20201008','20201007',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(486,709,4,'20201006','20201008','20201009',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(487,827,4,'20201006','20201009','20201009',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(488,921,4,'20201006','20201009','20201008',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(489,899,4,'20201006','20201008','20201008',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(490,876,4,'20201007','20201010','20201009',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(491,1048,4,'20201008','20201010','20201011',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(492,191,4,'20201009','20201010','20201012',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(493,796,4,'20201009','20201012','20201011',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(494,875,4,'20201009','20201010','20201011',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(495,712,4,'20201010','20201012','20201013',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(496,193,4,'20201010','20201012','20201011',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(497,785,4,'20201010','20201011','20201011',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(498,1331,4,'20201010','20201012','20201011',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(499,260,4,'20201011','20201014','20201013',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(500,148,4,'20201011','20201012','20201013',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(501,977,4,'20201011','20201012','20201013',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(502,401,4,'20201012','20201013','20201013',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(503,932,4,'20201013','20201016','20201014',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(504,1381,4,'20201014','20201015','20201015',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(505,721,4,'20201014','20201016','20201017',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(506,831,4,'20201014','20201016','20201016',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(507,1378,4,'20201015','20201017','20201017',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(508,1359,4,'20201015','20201018','20201018',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(509,235,4,'20201016','20201017','20201017',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(510,586,4,'20201017','20201018','20201018',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(511,377,4,'20201018','20201020','20201019',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(512,8,4,'20201019','20201022','20201020',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(513,155,4,'20201019','20201021','20201021',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(514,927,4,'20201019','20201021','20201020',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(515,986,4,'20201019','20201020','20201022',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(516,111,4,'20201021','20201023','20201024',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(517,613,4,'20201021','20201022','20201024',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(518,1374,4,'20201022','20201024','20201025',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(519,54,4,'20201022','20201023','20201024',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(520,639,4,'20201023','20201026','20201024',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(521,664,4,'20201023','20201025','20201025',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(522,724,4,'20201023','20201024','20201024',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(523,1056,4,'20201024','20201026','20201027',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(524,569,4,'20201025','20201026','20201027',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(525,1315,4,'20201026','20201028','20201029',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(526,1096,4,'20201026','20201028','20201028',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(527,506,4,'20201027','20201029','20201028',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(528,676,4,'20201028','20201031','20201031',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(529,753,4,'20201028','20201030','20201031',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(530,773,4,'20201028','20201031','20201031',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(531,116,4,'20201028','20201029','20201030',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(532,817,4,'20201029','20201031','20201030',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(533,1334,4,'20201029','20201101','20201101',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(534,1406,4,'20201029','20201030','20201031',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(535,835,4,'20201029','20201031','20201101',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(536,759,4,'20201031','20201102','20201101',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(537,1353,4,'20201031','20201101','20201103',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(538,341,4,'20201102','20201105','20201105',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(539,1144,4,'20201102','20201104','20201103',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(540,1429,4,'20201103','20201105','20201106',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(541,1228,4,'20201104','20201107','20201107',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(542,313,4,'20201104','20201106','20201105',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(543,62,4,'20201106','20201109','20201108',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(544,321,4,'20201106','20201107','20201108',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(545,1108,4,'20201108','20201110','20201109',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(546,470,4,'20201109','20201112','20201110',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(547,20,4,'20201109','20201111','20201110',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(548,739,4,'20201111','20201113','20201113',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(549,64,3,'20201112','20201112',NULL,3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(550,892,4,'20201112','20201114','20201115',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(551,1169,4,'20201112','20201113','20201113',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(552,1282,4,'20201112','20201115','20201113',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(553,913,4,'20201112','20201113','20201115',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(554,104,4,'20201113','20201114','20201116',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(555,212,4,'20201113','20201114','20201116',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(556,61,4,'20201113','20201114','20201115',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(557,1248,4,'20201114','20201117','20201115',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(558,1443,4,'20201115','20201116','20201117',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(559,959,4,'20201116','20201117','20201117',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(560,1405,4,'20201118','20201119','20201121',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(561,90,4,'20201119','20201122','20201122',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(562,942,4,'20201119','20201120','20201122',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(563,365,4,'20201120','20201122','20201121',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(564,1058,4,'20201120','20201123','20201122',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(565,894,4,'20201121','20201122','20201122',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(566,298,4,'20201122','20201125','20201123',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(567,1430,4,'20201122','20201123','20201123',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(568,1275,4,'20201123','20201125','20201124',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(569,707,4,'20201123','20201124','20201125',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(570,989,4,'20201123','20201124','20201125',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(571,5,4,'20201124','20201125','20201127',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(572,178,4,'20201124','20201126','20201126',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(573,423,4,'20201124','20201126','20201127',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(574,833,4,'20201126','20201127','20201129',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(575,33,4,'20201127','20201128','20201130',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(576,1272,4,'20201127','20201130','20201128',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(577,445,4,'20201127','20201130','20201129',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(578,819,4,'20201127','20201128','20201129',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(579,160,4,'20201127','20201130','20201129',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(580,581,4,'20201130','20201202','20201202',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(581,688,4,'20201203','20201205','20201206',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(582,32,3,'20201204','20201204',NULL,1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(583,792,4,'20201204','20201205','20201207',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(584,1209,4,'20201204','20201205','20201205',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(585,1219,4,'20201204','20201205','20201205',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(586,1306,4,'20201204','20201206','20201205',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(587,487,4,'20201206','20201208','20201208',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(588,102,4,'20201206','20201207','20201207',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(589,719,4,'20201206','20201207','20201207',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(590,990,4,'20201206','20201209','20201207',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(591,1211,4,'20201206','20201209','20201209',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(592,1232,4,'20201206','20201208','20201208',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(593,50,4,'20201207','20201210','20201208',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(594,1318,4,'20201207','20201208','20201208',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(595,538,4,'20201208','20201209','20201211',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(596,952,4,'20201208','20201209','20201209',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(597,1121,4,'20201208','20201209','20201210',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(598,40,3,'20201209','20201209',NULL,1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(599,1,4,'20201209','20201210','20201212',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(600,624,4,'20201209','20201212','20201211',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(601,683,4,'20201209','20201210','20201210',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(602,823,4,'20201209','20201210','20201211',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(603,1032,4,'20201209','20201210','20201210',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(604,96,4,'20201210','20201213','20201212',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(605,1208,4,'20201210','20201211','20201212',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(606,18,4,'20201211','20201212','20201213',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(607,309,4,'20201211','20201214','20201213',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(608,1103,4,'20201212','20201215','20201214',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(609,896,4,'20201212','20201213','20201214',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(610,711,4,'20201213','20201215','20201214',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(611,1073,4,'20201215','20201217','20201218',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(612,634,4,'20201216','20201217','20201217',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(613,1159,4,'20201217','20201219','20201219',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(614,654,4,'20201218','20201221','20201221',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(615,560,4,'20201219','20201222','20201221',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(616,1444,4,'20201220','20201223','20201223',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(617,118,4,'20201221','20201223','20201223',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(618,131,4,'20201221','20201222','20201222',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(619,454,4,'20201222','20201225','20201225',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(620,466,4,'20201222','20201224','20201224',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(621,1157,4,'20201223','20201225','20201224',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(622,1398,4,'20201223','20201226','20201225',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(623,678,4,'20201224','20201226','20201227',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(624,814,4,'20201224','20201225','20201227',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(625,1163,4,'20201225','20201228','20201226',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(626,130,4,'20201225','20201228','20201227',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(627,1119,4,'20201225','20201226','20201228',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(628,561,4,'20201226','20201229','20201227',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(629,973,4,'20201226','20201227','20201229',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(630,1404,4,'20201226','20201227','20201228',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(631,855,4,'20201227','20201229','20201229',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(632,163,4,'20201227','20201229','20201229',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(633,1040,4,'20201228','20201231','20201230',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(634,27,4,'20201229','20200101','20201230',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(635,520,4,'20201230','20200102','20201231',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(636,532,4,'20200103','20200104','20200105',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(637,512,4,'20200103','20200105','20200105',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(638,1302,4,'20200104','20200105','20200106',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(639,550,4,'20200106','20200107','20200107',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(640,1093,4,'20200106','20200108','20200107',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(641,673,4,'20200107','20200110','20200108',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(642,847,4,'20200107','20200109','20200110',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(643,901,4,'20200108','20200109','20200111',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(644,439,4,'20200108','20200111','20200110',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(645,1199,4,'20200108','20200111','20200110',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(646,975,4,'20200109','20200112','20200111',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(647,283,4,'20200109','20200110','20200111',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(648,684,4,'20200109','20200111','20200111',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(649,1153,4,'20200110','20200111','20200113',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(650,729,4,'20200111','20200114','20200112',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(651,190,4,'20200111','20200113','20200113',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(652,985,4,'20200112','20200115','20200113',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(653,1249,4,'20200114','20200117','20200115',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(654,1129,4,'20200114','20200115','20200117',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(655,347,4,'20200116','20200117','20200118',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(656,949,4,'20200116','20200117','20200118',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(657,349,4,'20200117','20200119','20200120',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(658,1051,4,'20200117','20200118','20200118',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(659,1391,4,'20200117','20200119','20200118',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(660,383,4,'20200118','20200119','20200119',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(661,626,4,'20200118','20200119','20200120',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(662,1125,4,'20200119','20200120','20200120',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(663,344,4,'20200120','20200122','20200123',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(664,681,4,'20200120','20200123','20200122',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(665,29,4,'20200121','20200122','20200123',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(666,770,4,'20200121','20200122','20200124',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(667,858,4,'20200122','20200124','20200125',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(668,297,4,'20200122','20200123','20200124',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(669,745,4,'20200123','20200124','20200126',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(670,361,4,'20200124','20200125','20200125',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(671,922,4,'20200125','20200128','20200126',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(672,908,4,'20200126','20200129','20200129',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(673,64,4,'20200126','20200128','20200127',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(674,733,4,'20200127','20200128','20200129',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(675,291,4,'20200128','20200131','20200130',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(676,790,4,'20200128','20200130','20200131',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(677,809,4,'20200128','20200131','20200130',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(678,250,4,'20200128','20200129','20200131',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(679,81,4,'20200129','20200130','20200130',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(680,245,4,'20200129','20200201','20200130',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(681,499,4,'20200129','20200201','20200131',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(682,614,4,'20200129','20200130','20200130',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(683,741,4,'20200129','20200131','20200201',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(684,762,4,'20200131','20200201','20200202',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(685,976,4,'20200131','20200203','20200202',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(686,380,4,'20200201','20200203','20200204',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(687,530,4,'20200202','20200205','20200204',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(688,343,4,'20200202','20200203','20200205',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(689,884,4,'20200202','20200203','20200205',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(690,1097,4,'20200203','20200204','20200206',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(691,1081,4,'20200204','20200206','20200206',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(692,2,3,'20200205','20200205',NULL,1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(693,1233,4,'20200205','20200207','20200206',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(694,58,4,'20200205','20200206','20200208',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(695,606,4,'20200205','20200208','20200207',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(696,1242,4,'20200205','20200208','20200208',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(697,562,4,'20200206','20200208','20200209',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(698,543,4,'20200206','20200208','20200209',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(699,958,4,'20200206','20200208','20200209',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(700,4,4,'20200207','20200210','20200208',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(701,850,4,'20200207','20200208','20200209',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(702,1352,4,'20200208','20200209','20200211',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(703,417,4,'20200208','20200209','20200209',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(704,1137,4,'20200208','20200209','20200211',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(705,1196,4,'20200208','20200211','20200211',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(706,1271,4,'20200209','20200212','20200210',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(707,79,4,'20200209','20200211','20200211',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(708,660,4,'20200210','20200212','20200211',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(709,1162,4,'20200211','20200213','20200212',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(710,295,4,'20200213','20200215','20200216',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(711,1246,4,'20200213','20200216','20200214',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(712,173,4,'20200213','20200214','20200216',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(713,207,4,'20200213','20200214','20200215',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(714,805,4,'20200214','20200217','20200215',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(715,12,3,'20200215','20200215',NULL,2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(716,672,4,'20200215','20200217','20200218',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(717,1312,4,'20200215','20200218','20200217',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(718,38,4,'20200216','20200217','20200217',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(719,200,4,'20200216','20200219','20200218',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(720,382,4,'20200216','20200219','20200219',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(721,625,4,'20200216','20200219','20200217',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(722,1399,4,'20200218','20200220','20200221',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(723,845,4,'20200219','20200221','20200222',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(724,864,4,'20200219','20200222','20200221',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(725,870,4,'20200219','20200222','20200222',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(726,969,4,'20200219','20200222','20200220',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(727,962,4,'20200219','20200222','20200221',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(728,1138,4,'20200220','20200221','20200223',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(729,897,4,'20200220','20200222','20200221',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(730,500,4,'20200221','20200224','20200222',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(731,910,4,'20200225','20200227','20200227',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(732,147,4,'20200226','20200227','20200301',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(733,832,4,'20200226','20200301','20200227',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(734,939,4,'20200226','20200228','20200301',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(735,20,3,'20200227','20200227',NULL,3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(736,184,4,'20200227','20200228','20200228',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(737,694,4,'20200227','20200301','20200228',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(738,124,4,'20200228','20200301','20200303',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(739,49,4,'20200228','20200301','20200302',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(740,1113,4,'20200228','20200301','20200302',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(741,119,4,'20200228','20200301','20200301',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(742,433,4,'20200228','20200301','20200301',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(743,137,4,'20200301','20200304','20200304',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(744,166,4,'20200301','20200302','20200302',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(745,698,4,'20200301','20200303','20200303',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(746,391,4,'20200302','20200304','20200305',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(747,87,4,'20200303','20200304','20200305',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(748,1072,4,'20200303','20200305','20200304',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(749,255,4,'20200304','20200307','20200305',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(750,232,4,'20200304','20200307','20200305',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(751,731,4,'20200305','20200308','20200307',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(752,335,4,'20200305','20200306','20200307',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(753,1201,4,'20200305','20200308','20200308',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(754,646,4,'20200306','20200307','20200308',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(755,531,4,'20200306','20200307','20200307',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(756,1143,4,'20200306','20200307','20200309',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(757,1336,4,'20200306','20200308','20200309',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(758,953,4,'20200306','20200308','20200307',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(759,284,4,'20200307','20200309','20200308',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(760,1104,4,'20200307','20200310','20200310',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(761,1291,4,'20200307','20200308','20200310',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(762,572,4,'20200308','20200309','20200309',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(763,842,4,'20200308','20200310','20200309',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(764,701,4,'20200309','20200310','20200312',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(765,1152,4,'20200309','20200311','20200312',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(766,141,4,'20200309','20200311','20200312',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(767,564,4,'20200309','20200310','20200311',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(768,841,4,'20200309','20200312','20200310',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(769,946,4,'20200309','20200311','20200311',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(770,135,4,'20200309','20200311','20200311',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(771,671,4,'20200311','20200314','20200312',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(772,448,4,'20200311','20200312','20200313',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(773,1385,4,'20200311','20200312','20200312',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(774,690,4,'20200312','20200314','20200314',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(775,968,4,'20200312','20200313','20200313',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(776,490,4,'20200313','20200315','20200316',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(777,496,4,'20200313','20200316','20200316',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(778,56,3,'20200315','20200315',NULL,3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(779,367,4,'20200315','20200316','20200318',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(780,592,4,'20200315','20200317','20200317',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(781,1018,4,'20200315','20200316','20200317',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(782,1298,4,'20200315','20200316','20200318',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(783,1343,4,'20200316','20200319','20200317',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(784,430,4,'20200316','20200319','20200319',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(785,794,4,'20200318','20200319','20200320',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(786,249,4,'20200318','20200320','20200319',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(787,700,4,'20200318','20200320','20200319',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(788,1363,4,'20200318','20200320','20200320',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(789,772,4,'20200319','20200320','20200320',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(790,1015,4,'20200319','20200321','20200322',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(791,432,4,'20200320','20200322','20200323',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(792,479,4,'20200322','20200323','20200324',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(793,653,4,'20200323','20200324','20200324',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(794,863,4,'20200323','20200325','20200324',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(795,992,4,'20200323','20200325','20200326',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(796,154,4,'20200323','20200326','20200325',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(797,374,4,'20200324','20200326','20200326',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(798,619,4,'20200326','20200328','20200329',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(799,607,4,'20200327','20200328','20200329',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(800,1057,4,'20200327','20200329','20200328',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(801,78,4,'20200328','20200329','20200330',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(802,340,4,'20200328','20200329','20200330',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(803,1105,4,'20200328','20200331','20200330',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(804,95,4,'20200329','20200331','20200330',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(805,420,4,'20200329','20200330','20200401',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(806,234,4,'20200330','20200331','20200331',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(807,1148,4,'20200330','20200401','20200402',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(808,315,4,'20200331','20200402','20200402',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(809,1222,4,'20200331','20200403','20200403',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(810,153,3,'20200401','20200401',NULL,3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(811,524,4,'20200401','20200404','20200404',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(812,1164,4,'20200401','20200402','20200403',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(813,1203,4,'20200401','20200403','20200402',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(814,629,4,'20200402','20200405','20200403',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(815,1251,4,'20200403','20200405','20200404',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(816,811,4,'20200403','20200405','20200405',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(817,301,4,'20200404','20200405','20200407',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(818,1319,4,'20200404','20200407','20200407',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(819,221,4,'20200404','20200407','20200405',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(820,725,4,'20200405','20200408','20200407',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(821,1181,4,'20200405','20200407','20200408',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(822,294,4,'20200406','20200408','20200409',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(823,415,4,'20200406','20200407','20200408',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(824,993,4,'20200407','20200409','20200410',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(825,10,4,'20200407','20200408','20200409',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(826,45,4,'20200407','20200410','20200410',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(827,666,4,'20200407','20200410','20200410',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(828,246,4,'20200409','20200410','20200412',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(829,674,4,'20200409','20200410','20200410',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(830,431,4,'20200411','20200414','20200412',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(831,1000,4,'20200411','20200412','20200412',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(832,1215,4,'20200411','20200412','20200412',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(833,406,4,'20200412','20200414','20200415',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(834,890,4,'20200412','20200413','20200415',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(835,940,4,'20200413','20200415','20200414',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(836,455,4,'20200413','20200416','20200414',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(837,948,4,'20200413','20200416','20200414',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(838,1395,4,'20200414','20200417','20200415',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(839,1332,4,'20200415','20200418','20200416',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(840,372,4,'20200415','20200416','20200416',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(841,428,4,'20200415','20200418','20200417',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(842,1133,4,'20200415','20200418','20200416',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(843,1059,4,'20200416','20200417','20200419',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(844,1436,4,'20200416','20200417','20200418',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(845,662,4,'20200417','20200418','20200418',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(846,715,4,'20200417','20200419','20200419',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(847,329,4,'20200418','20200419','20200419',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(848,597,4,'20200418','20200420','20200420',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(849,776,4,'20200419','20200420','20200421',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(850,1346,4,'20200419','20200422','20200422',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(851,1139,4,'20200420','20200421','20200422',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(852,13,4,'20200421','20200423','20200422',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(853,883,4,'20200421','20200424','20200424',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(854,177,4,'20200422','20200425','20200423',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(855,775,4,'20200422','20200423','20200425',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(856,477,4,'20200423','20200425','20200426',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(857,1402,4,'20200424','20200425','20200426',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(858,162,4,'20200425','20200427','20200428',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(859,644,4,'20200425','20200426','20200426',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(860,473,4,'20200427','20200429','20200428',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(861,1177,4,'20200427','20200429','20200430',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(862,1230,4,'20200427','20200430','20200429',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(863,446,4,'20200428','20200430','20200501',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(864,902,4,'20200428','20200430','20200429',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(865,974,4,'20200429','20200502','20200501',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(866,1410,4,'20200429','20200430','20200501',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(867,97,4,'20200501','20200503','20200502',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(868,868,4,'20200501','20200504','20200502',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(869,844,4,'20200501','20200504','20200502',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(870,1416,4,'20200501','20200504','20200502',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(871,358,4,'20200502','20200504','20200503',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(872,394,4,'20200503','20200506','20200506',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(873,829,4,'20200503','20200505','20200505',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(874,661,4,'20200504','20200505','20200506',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(875,386,4,'20200505','20200506','20200508',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(876,1046,4,'20200505','20200508','20200506',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(877,784,4,'20200506','20200507','20200508',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(878,224,4,'20200507','20200510','20200509',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(879,214,4,'20200508','20200509','20200509',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(880,1206,4,'20200508','20200511','20200510',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(881,1024,4,'20200508','20200511','20200511',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(882,196,4,'20200509','20200512','20200510',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(883,507,4,'20200511','20200513','20200514',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(884,871,4,'20200511','20200513','20200512',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(885,66,3,'20200513','20200513',NULL,3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(886,1396,4,'20200513','20200514','20200515',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(887,1195,4,'20200513','20200515','20200515',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(888,1038,4,'20200514','20200516','20200516',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(889,830,4,'20200514','20200517','20200515',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(890,171,4,'20200515','20200518','20200518',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(891,384,4,'20200515','20200518','20200516',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(892,651,4,'20200515','20200518','20200517',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(893,1293,4,'20200516','20200519','20200519',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(894,1320,4,'20200516','20200519','20200519',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(895,857,4,'20200518','20200521','20200519',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(896,376,4,'20200519','20200522','20200521',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(897,47,4,'20200520','20200521','20200521',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(898,352,4,'20200520','20200521','20200522',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(899,605,4,'20200520','20200521','20200521',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(900,971,4,'20200520','20200521','20200522',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(901,345,4,'20200521','20200522','20200524',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(902,1278,4,'20200521','20200524','20200522',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(903,179,4,'20200522','20200523','20200524',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(904,1020,4,'20200523','20200526','20200524',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(905,609,4,'20200523','20200526','20200524',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(906,877,4,'20200523','20200526','20200526',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(907,120,4,'20200524','20200526','20200527',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(908,402,4,'20200525','20200528','20200527',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(909,188,4,'20200526','20200527','20200528',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(910,342,4,'20200526','20200528','20200528',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(911,887,4,'20200526','20200529','20200529',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(912,519,4,'20200527','20200529','20200529',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(913,699,4,'20200527','20200529','20200529',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(914,1068,4,'20200528','20200531','20200531',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(915,215,4,'20200528','20200530','20200530',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(916,718,4,'20200528','20200529','20200529',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(917,881,4,'20200529','20200531','20200601',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(918,242,4,'20200530','20200531','20200531',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(919,781,4,'20200530','20200531','20200531',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(920,966,4,'20200530','20200601','20200602',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(921,628,4,'20200531','20200602','20200602',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(922,656,4,'20200531','20200601','20200603',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(923,769,4,'20200531','20200603','20200602',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(924,68,3,'20200602','20200602',NULL,3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(925,1316,4,'20200602','20200605','20200603',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(926,233,4,'20200603','20200605','20200606',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(927,1438,4,'20200603','20200605','20200606',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(928,957,4,'20200605','20200606','20200606',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(929,472,4,'20200605','20200606','20200608',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(930,1224,4,'20200605','20200606','20200606',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(931,631,4,'20200607','20200608','20200608',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(932,804,4,'20200607','20200608','20200609',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(933,909,4,'20200607','20200610','20200608',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(934,93,4,'20200609','20200610','20200612',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(935,43,3,'20200610','20200610',NULL,3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(936,265,4,'20200610','20200613','20200612',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(937,73,4,'20200611','20200614','20200613',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(938,129,4,'20200611','20200612','20200612',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(939,1407,4,'20200611','20200612','20200614',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(940,585,4,'20200612','20200614','20200613',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(941,736,4,'20200612','20200614','20200614',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(942,537,4,'20200613','20200616','20200615',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(943,1025,4,'20200613','20200615','20200615',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(944,138,4,'20200614','20200615','20200617',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(945,167,4,'20200614','20200615','20200616',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(946,525,4,'20200614','20200616','20200615',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(947,278,4,'20200615','20200618','20200617',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(948,618,4,'20200615','20200617','20200617',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(949,867,4,'20200616','20200618','20200617',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(950,142,4,'20200616','20200619','20200618',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(951,339,4,'20200616','20200619','20200619',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(952,355,4,'20200616','20200618','20200618',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(953,658,4,'20200616','20200618','20200617',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(954,611,4,'20200617','20200620','20200620',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(955,880,4,'20200617','20200619','20200618',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(956,1184,4,'20200617','20200619','20200620',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(957,722,4,'20200617','20200620','20200620',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(958,1276,4,'20200618','20200620','20200619',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(959,650,4,'20200618','20200621','20200621',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(960,1390,4,'20200618','20200619','20200619',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(961,82,4,'20200619','20200621','20200622',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(962,570,4,'20200619','20200622','20200620',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(963,1432,4,'20200619','20200621','20200621',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(964,404,4,'20200620','20200622','20200622',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(965,457,4,'20200620','20200622','20200623',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(966,389,4,'20200620','20200622','20200622',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(967,1323,4,'20200621','20200624','20200624',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(968,1403,4,'20200621','20200623','20200623',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(969,248,4,'20200621','20200624','20200622',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(970,836,4,'20200622','20200625','20200623',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(971,1426,4,'20200622','20200623','20200624',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(972,270,4,'20200623','20200624','20200625',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(973,238,4,'20200624','20200627','20200627',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(974,511,4,'20200624','20200627','20200627',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(975,1092,4,'20200625','20200627','20200628',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(976,1266,4,'20200625','20200628','20200627',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(977,400,4,'20200626','20200628','20200627',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(978,1123,4,'20200626','20200628','20200627',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(979,1190,4,'20200626','20200629','20200627',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(980,328,4,'20200626','20200628','20200627',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(981,687,4,'20200626','20200629','20200628',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(982,1423,4,'20200626','20200629','20200628',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(983,1158,4,'20200627','20200628','20200629',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(984,1287,4,'20200627','20200628','20200629',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(985,461,4,'20200630','20200702','20200701',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(986,556,4,'20200630','20200703','20200701',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(987,172,4,'20200702','20200704','20200704',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(988,436,4,'20200702','20200704','20200705',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(989,1145,4,'20200702','20200704','20200703',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(990,706,4,'20200704','20200707','20200707',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(991,751,4,'20200706','20200707','20200709',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(992,723,4,'20200707','20200710','20200709',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(993,1415,4,'20200709','20200711','20200711',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(994,419,4,'20200709','20200711','20200711',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(995,621,4,'20200711','20200713','20200714',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(996,915,4,'20200711','20200712','20200712',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(997,485,4,'20200711','20200713','20200714',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(998,219,4,'20200712','20200713','20200714',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(999,590,4,'20200712','20200713','20200714',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1000,645,4,'20200712','20200714','20200715',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1001,354,4,'20200713','20200716','20200715',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1002,1418,4,'20200714','20200716','20200716',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1003,503,4,'20200714','20200716','20200716',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1004,1389,4,'20200714','20200717','20200716',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1005,266,4,'20200715','20200717','20200716',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1006,1070,4,'20200715','20200718','20200717',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1007,1115,4,'20200716','20200717','20200717',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1008,1345,4,'20200716','20200718','20200718',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1009,1064,4,'20200716','20200719','20200719',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1010,8,3,'20200718','20200718',NULL,2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1011,495,4,'20200718','20200721','20200721',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1012,620,4,'20200718','20200720','20200720',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1013,174,4,'20200719','20200722','20200721',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1014,748,4,'20200719','20200721','20200721',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1015,799,4,'20200719','20200722','20200721',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1016,1417,4,'20200719','20200720','20200721',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1017,168,4,'20200720','20200721','20200723',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1018,290,4,'20200722','20200723','20200723',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1019,408,4,'20200722','20200723','20200724',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1020,16,3,'20200723','20200723',NULL,2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1021,125,4,'20200723','20200724','20200726',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1022,353,4,'20200723','20200726','20200724',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1023,356,4,'20200723','20200726','20200725',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1024,837,4,'20200723','20200725','20200726',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1025,1304,4,'20200723','20200726','20200726',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1026,1370,4,'20200726','20200728','20200729',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1027,588,4,'20200726','20200728','20200728',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1028,1273,4,'20200727','20200728','20200730',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1029,407,4,'20200729','20200730','20200801',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1030,161,4,'20200729','20200730','20200731',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1031,1308,4,'20200730','20200801','20200802',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1032,429,4,'20200730','20200802','20200801',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1033,582,4,'20200730','20200731','20200802',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1034,895,4,'20200730','20200731','20200731',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1035,1283,4,'20200730','20200802','20200802',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1036,1442,4,'20200730','20200801','20200731',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1037,1229,4,'20200731','20200802','20200803',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1038,1281,4,'20200731','20200801','20200803',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1039,1077,4,'20200802','20200804','20200803',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1040,1225,4,'20200804','20200807','20200805',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1041,70,4,'20200804','20200806','20200805',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1042,539,4,'20200806','20200807','20200807',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1043,1235,4,'20200806','20200809','20200808',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1044,1270,4,'20200807','20200810','20200808',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1045,185,4,'20200807','20200809','20200810',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1046,1134,4,'20200807','20200809','20200808',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1047,116,3,'20200808','20200808',NULL,3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1048,777,4,'20200808','20200810','20200809',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1049,194,4,'20200809','20200811','20200810',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1050,239,4,'20200809','20200812','20200812',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1051,209,4,'20200810','20200811','20200811',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1052,460,4,'20200810','20200812','20200813',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1053,1439,4,'20200810','20200811','20200812',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1054,189,4,'20200811','20200812','20200812',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1055,140,4,'20200812','20200815','20200815',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1056,325,4,'20200812','20200815','20200813',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1057,456,4,'20200812','20200815','20200813',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1058,782,4,'20200813','20200816','20200814',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1059,6,4,'20200814','20200817','20200817',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1060,182,4,'20200815','20200818','20200817',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1061,655,4,'20200815','20200818','20200818',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1062,1210,4,'20200815','20200817','20200818',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1063,198,4,'20200816','20200819','20200819',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1064,898,4,'20200816','20200818','20200819',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1065,25,4,'20200817','20200819','20200819',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1066,106,4,'20200817','20200820','20200819',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1067,225,4,'20200817','20200819','20200819',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1068,453,4,'20200817','20200820','20200819',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1069,493,4,'20200817','20200819','20200818',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1070,596,4,'20200817','20200820','20200818',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1071,602,4,'20200817','20200820','20200818',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1072,47,3,'20200818','20200818',NULL,1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1073,911,4,'20200818','20200819','20200821',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1074,11,3,'20200819','20200819',NULL,2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1075,1003,4,'20200819','20200821','20200822',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1076,42,4,'20200819','20200822','20200822',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1077,412,4,'20200819','20200820','20200821',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1078,793,4,'20200819','20200821','20200820',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1079,812,4,'20200819','20200820','20200820',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1080,1086,4,'20200819','20200820','20200820',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1081,1106,4,'20200819','20200822','20200822',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1082,1327,4,'20200820','20200822','20200821',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1083,1372,4,'20200820','20200823','20200823',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1084,2,4,'20200821','20200824','20200823',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1085,305,4,'20200821','20200823','20200823',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1086,220,4,'20200821','20200823','20200824',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1087,675,4,'20200822','20200823','20200825',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1088,1160,4,'20200822','20200823','20200823',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1089,46,3,'20200823','20200823',NULL,1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1090,1427,4,'20200824','20200826','20200826',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1091,1260,4,'20200824','20200825','20200825',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1092,40,4,'20200825','20200828','20200827',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1093,326,4,'20200825','20200828','20200826',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1094,828,4,'20200825','20200827','20200828',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1095,1382,4,'20200826','20200828','20200827',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1096,589,4,'20200827','20200829','20200829',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1097,1311,4,'20200827','20200830','20200828',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1098,752,4,'20200828','20200830','20200830',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1099,1128,4,'20200828','20200829','20200830',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1100,1392,4,'20200828','20200829','20200829',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1101,379,4,'20200829','20200830','20200830',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1102,1317,4,'20200829','20200831','20200831',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1103,1394,4,'20200831','20200902','20200902',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1104,268,4,'20200901','20200904','20200903',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1105,747,4,'20200901','20200904','20200903',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1106,1009,4,'20200902','20200904','20200904',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1107,1424,4,'20200902','20200905','20200905',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1108,735,4,'20200903','20200905','20200904',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1109,23,4,'20200903','20200904','20200904',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1110,912,4,'20200904','20200907','20200907',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1111,930,4,'20200904','20200906','20200905',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1112,798,4,'20200905','20200908','20200907',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1113,388,4,'20200906','20200908','20200907',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1114,1036,4,'20200906','20200908','20200908',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1115,1100,4,'20200907','20200909','20200909',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1116,52,4,'20200908','20200910','20200910',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1117,334,4,'20200908','20200910','20200910',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1118,1023,4,'20200908','20200911','20200911',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1119,749,4,'20200910','20200912','20200913',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1120,1269,4,'20200910','20200912','20200913',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1121,143,4,'20200911','20200913','20200912',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1122,1132,4,'20200912','20200914','20200914',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1123,598,4,'20200913','20200914','20200914',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1124,275,4,'20200913','20200914','20200916',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1125,945,4,'20200914','20200915','20200915',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1126,1213,4,'20200914','20200916','20200915',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1127,494,4,'20200915','20200916','20200916',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1128,936,4,'20200915','20200917','20200916',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1129,663,4,'20200917','20200918','20200920',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1130,69,4,'20200918','20200920','20200920',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1131,1178,4,'20200918','20200920','20200919',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1132,351,4,'20200919','20200920','20200920',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1133,517,4,'20200919','20200921','20200921',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1134,978,4,'20200919','20200922','20200920',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1135,1347,4,'20200919','20200921','20200920',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1136,1050,4,'20200920','20200921','20200921',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1137,810,4,'20200920','20200923','20200923',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1138,254,4,'20200921','20200923','20200922',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1139,1006,4,'20200921','20200922','20200923',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1140,1063,4,'20200921','20200922','20200922',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1141,1076,4,'20200922','20200923','20200924',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1142,554,4,'20200923','20200926','20200926',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1143,1087,4,'20200924','20200926','20200927',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1144,1414,4,'20200924','20200927','20200927',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1145,617,4,'20200925','20200927','20200926',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1146,757,4,'20200925','20200926','20200928',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1147,1344,4,'20200925','20200926','20200927',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1148,1379,4,'20200925','20200926','20200927',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1149,787,4,'20200927','20200930','20200930',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1150,1183,4,'20200928','20201001','20200930',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1151,708,4,'20200929','20200930','20200930',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1152,1244,4,'20200929','20201002','20201001',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1153,720,4,'20200930','20201003','20201003',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1154,789,4,'20200930','20201003','20201003',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1155,865,4,'20200930','20201001','20201001',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1156,869,4,'20200930','20201003','20201003',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1157,24,4,'20201001','20201003','20201004',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1158,889,4,'20201001','20201003','20201002',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1159,1221,4,'20201001','20201002','20201003',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1160,1262,4,'20201001','20201002','20201004',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1161,41,4,'20201001','20201004','20201002',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1162,888,4,'20201001','20201003','20201003',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1163,934,4,'20201001','20201002','20201002',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1164,1067,4,'20201001','20201002','20201003',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1165,652,4,'20201002','20201003','20201005',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1166,286,4,'20201003','20201004','20201004',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1167,900,4,'20201004','20201007','20201006',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1168,1031,4,'20201004','20201005','20201006',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1169,1421,4,'20201004','20201006','20201007',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1170,534,4,'20201005','20201007','20201006',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1171,826,4,'20201005','20201006','20201008',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1172,1339,4,'20201007','20201010','20201009',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1173,548,4,'20201008','20201010','20201009',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1174,1109,4,'20201008','20201010','20201011',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1175,292,4,'20201009','20201011','20201012',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1176,1111,4,'20201010','20201013','20201011',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1177,21,3,'20201012','20201012',NULL,3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1178,771,4,'20201012','20201015','20201013',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1179,1150,4,'20201012','20201015','20201015',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1180,1065,4,'20201013','20201016','20201016',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1181,1022,4,'20201013','20201016','20201015',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1182,1422,4,'20201013','20201014','20201016',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1183,216,4,'20201014','20201017','20201017',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1184,369,4,'20201014','20201015','20201016',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1185,960,4,'20201014','20201016','20201017',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1186,1120,4,'20201014','20201016','20201015',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1187,486,4,'20201015','20201018','20201016',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1188,647,4,'20201015','20201018','20201017',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1189,1090,4,'20201015','20201017','20201018',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1190,34,4,'20201016','20201019','20201017',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1191,186,4,'20201017','20201018','20201018',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1192,1114,4,'20201017','20201019','20201018',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1193,1412,4,'20201017','20201019','20201019',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1194,192,4,'20201019','20201022','20201022',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1195,229,4,'20201019','20201021','20201021',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1196,508,4,'20201019','20201021','20201020',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1197,269,4,'20201021','20201023','20201023',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1198,1289,4,'20201022','20201024','20201024',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1199,318,4,'20201023','20201024','20201026',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1200,48,4,'20201023','20201025','20201026',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1201,201,4,'20201023','20201024','20201024',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1202,593,4,'20201024','20201025','20201025',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1203,1191,4,'20201025','20201027','20201026',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1204,1277,4,'20201025','20201028','20201028',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1205,1091,4,'20201026','20201028','20201028',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1206,222,4,'20201026','20201029','20201029',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1207,1002,4,'20201026','20201028','20201027',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1208,1226,4,'20201026','20201028','20201027',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1209,1342,4,'20201026','20201027','20201029',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1210,730,4,'20201026','20201027','20201029',3,8);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1211,19,4,'20201027','20201028','20201029',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1212,213,4,'20201027','20201030','20201029',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1213,669,4,'20201027','20201029','20201029',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1214,783,4,'20201028','20201029','20201029',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1215,807,4,'20201028','20201031','20201030',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1216,886,4,'20201028','20201030','20201029',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1217,1155,4,'20201028','20201031','20201030',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1218,1017,4,'20201030','20201101','20201031',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1219,840,4,'20201030','20201102','20201102',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1220,803,4,'20201031','20201103','20201103',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1221,1290,4,'20201031','20201102','20201101',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1222,482,4,'20201101','20201104','20201103',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1223,1207,4,'20201102','20201103','20201103',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1224,544,4,'20201103','20201104','20201104',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1225,768,4,'20201104','20201105','20201107',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1226,226,4,'20201104','20201107','20201106',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1227,702,4,'20201104','20201107','20201106',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1228,1041,4,'20201104','20201106','20201106',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1229,89,4,'20201105','20201108','20201106',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1230,1107,4,'20201105','20201106','20201107',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1231,1180,4,'20201105','20201107','20201106',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1232,665,4,'20201106','20201107','20201109',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1233,462,4,'20201106','20201107','20201108',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1234,19,3,'20201107','20201107',NULL,2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1235,210,4,'20201107','20201108','20201109',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1236,243,4,'20201108','20201111','20201109',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1237,571,4,'20201109','20201112','20201111',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1238,998,4,'20201109','20201110','20201111',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1239,1197,4,'20201109','20201110','20201111',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1240,903,4,'20201110','20201111','20201111',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1241,1170,4,'20201110','20201112','20201111',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1242,303,4,'20201111','20201112','20201112',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1243,346,4,'20201111','20201113','20201114',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1244,333,4,'20201112','20201114','20201113',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1245,1166,4,'20201113','20201116','20201114',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1246,1329,4,'20201113','20201116','20201116',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1247,426,4,'20201116','20201118','20201117',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1248,1367,4,'20201116','20201117','20201118',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1249,545,4,'20201117','20201118','20201120',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1250,1188,4,'20201117','20201119','20201118',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1251,289,4,'20201117','20201119','20201119',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1252,110,4,'20201118','20201120','20201121',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1253,44,4,'20201118','20201121','20201121',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1254,1098,4,'20201118','20201119','20201119',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1255,375,4,'20201119','20201120','20201121',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1256,458,4,'20201119','20201120','20201122',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1257,1136,4,'20201119','20201122','20201120',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1258,1099,4,'20201120','20201121','20201122',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1259,4,3,'20201121','20201121',NULL,2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1260,1117,4,'20201122','20201123','20201124',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1261,435,4,'20201123','20201125','20201124',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1262,509,4,'20201123','20201126','20201126',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1263,1408,4,'20201123','20201126','20201126',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1264,113,4,'20201124','20201127','20201125',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1265,950,4,'20201124','20201127','20201127',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1266,387,4,'20201125','20201128','20201127',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1267,467,4,'20201125','20201126','20201126',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1268,774,4,'20201126','20201128','20201129',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1269,1236,4,'20201126','20201129','20201129',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1270,1388,4,'20201126','20201129','20201129',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1271,734,4,'20201127','20201130','20201130',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1272,935,4,'20201127','20201129','20201130',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1273,1268,4,'20201127','20201129','20201129',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1274,1364,4,'20201128','20201129','20201201',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1275,165,4,'20201129','20201201','20201130',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1276,893,4,'20201130','20201203','20201202',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1277,227,4,'20201201','20201204','20201202',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1278,980,4,'20201201','20201202','20201204',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1279,1014,4,'20201201','20201204','20201203',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1280,123,4,'20201201','20201203','20201203',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1281,1060,4,'20201202','20201205','20201205',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1282,320,4,'20201203','20201205','20201205',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1283,85,4,'20201204','20201207','20201207',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1284,128,4,'20201204','20201206','20201207',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1285,262,4,'20201204','20201207','20201207',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1286,1033,4,'20201204','20201207','20201206',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1287,279,4,'20201207','20201210','20201209',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1288,778,4,'20201207','20201210','20201209',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1289,1292,4,'20201208','20201211','20201210',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1290,967,4,'20201208','20201210','20201210',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1291,1284,4,'20201209','20201211','20201212',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1292,285,4,'20201210','20201213','20201211',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1293,1401,4,'20201210','20201212','20201211',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1294,947,4,'20201211','20201213','20201214',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1295,37,4,'20201211','20201212','20201214',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1296,231,4,'20201214','20201217','20201215',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1297,108,4,'20201214','20201217','20201216',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1298,533,4,'20201214','20201217','20201216',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1299,1216,4,'20201215','20201218','20201216',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1300,824,4,'20201215','20201217','20201217',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1301,1088,4,'20201216','20201219','20201219',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1302,322,4,'20201216','20201218','20201219',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1303,878,4,'20201216','20201219','20201218',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1304,1409,4,'20201216','20201217','20201217',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1305,257,4,'20201217','20201219','20201218',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1306,28,4,'20201220','20201221','20201222',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1307,1384,4,'20201222','20201223','20201225',1,2);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1308,713,4,'20201222','20201224','20201224',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1309,821,4,'20201222','20201225','20201224',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1310,444,4,'20201224','20201225','20201226',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1311,1021,4,'20201224','20201226','20201227',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1312,311,4,'20201225','20201228','20201226',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1313,1294,4,'20201225','20201227','20201227',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1314,1027,4,'20201225','20201226','20201228',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1315,931,4,'20201225','20201227','20201228',3,9);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1316,846,4,'20201226','20201229','20201227',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1317,418,4,'20201227','20201228','20201229',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1318,75,4,'20201227','20201230','20201229',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1319,604,4,'20201227','20201230','20201230',2,6);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1320,244,4,'20201228','20201230','20201229',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1321,217,4,'20201230','20201231','20201231',1,3);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1322,39,4,'20201231','20180103','20180102',2,7);
+INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1323,273,4,'20201231','20180101','20180101',2,6);
 INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1324,862,4,'20180101','20180104','20180103',2,6);
 INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1325,68,4,'20180101','20180102','20180103',3,8);
 INSERT INTO sales.orders(id, customerid, orderstatus, orderdate, requireddate, shippeddate, storeid,staffid) VALUES(1326,567,4,'20180101','20180103','20180102',3,9);

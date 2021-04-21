@@ -1,11 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LabWork_Entity_Framework.Models
 {
-    [Table("categories", Schema = "Production")]
+    [Table("Categories", Schema = "Production")]
     public class Category
     {
         public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
     }
 }

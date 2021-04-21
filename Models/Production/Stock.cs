@@ -2,15 +2,13 @@
 
 namespace LabWork_Entity_Framework.Models
 {
-    [Table("stocks", Schema = "Production")]
+    [Table("Stocks", Schema = "Production")]
     public class Stock
     {
-        [ForeignKey("Store")]
         public int StoreId { get; set; }
-        public Store Store { get; set; }
-        [ForeignKey("Product")]
+        public virtual Store Store { get; set; }
         public int ProductId { get; set; }
-        public Product Product { get; set; }
+        public virtual Product Product { get; set; }
         public int Quantity { get; set; }
     }
 }

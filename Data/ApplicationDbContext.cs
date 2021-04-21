@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using LabWork_Entity_Framework.Models;
+using Microsoft.EntityFrameworkCore.Proxies;
 
 namespace LabWork_Entity_Framework.Data
 {
@@ -16,6 +17,7 @@ namespace LabWork_Entity_Framework.Data
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            optionsBuilder.UseLazyLoadingProxies();
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=teststoredb;Trusted_Connection=True;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

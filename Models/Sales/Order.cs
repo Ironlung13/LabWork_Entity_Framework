@@ -20,5 +20,17 @@ namespace LabWork_Entity_Framework.Models
         public virtual Staff Staff { get; set; }
         [Required]
         public virtual List<OrderItem> OrderItems { get; set; }
+        public decimal TotalPrice
+        {
+            get
+            {
+                decimal price = 0m;
+                foreach (var items in OrderItems)
+                {
+                    price += items.Price * items.Quantity * (1m - items.Discount);
+                }
+                return price;
+            }
+        }
     }
 }

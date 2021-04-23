@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Proxies;
 
 namespace LabWork_Entity_Framework.Data
 {
-    class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext()
         {

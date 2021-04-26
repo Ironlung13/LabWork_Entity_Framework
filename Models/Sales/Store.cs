@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace LabWork_Entity_Framework.Models
 {
@@ -18,5 +19,6 @@ namespace LabWork_Entity_Framework.Models
         [Required]
         public string State { get; set; }
         public int ZipCode { get; set; }
+        public virtual List<Order> Orders { get; set; }
     }
 }

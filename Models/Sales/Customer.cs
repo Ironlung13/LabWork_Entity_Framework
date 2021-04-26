@@ -1,5 +1,4 @@
-﻿using LabWork_Entity_Framework.Models.Internal;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
@@ -22,7 +21,6 @@ namespace LabWork_Entity_Framework.Models
         public string State { get; set; }
         [Required]
         public int ZipCode { get; set; }
-        public virtual UserInfo UserInfo { get; set; }
         public virtual List<Order> Orders { get; set; }
         public override string ToString()
         {

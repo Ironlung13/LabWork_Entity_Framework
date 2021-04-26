@@ -1,11 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using LabWork_Entity_Framework.Models;
-using Microsoft.EntityFrameworkCore.Proxies;
+﻿using LabWork_Entity_Framework.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace LabWork_Entity_Framework.Data
 {

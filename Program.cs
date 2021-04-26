@@ -53,29 +53,6 @@ namespace LabWork_Entity_Framework
             Console.Clear();
             Main();
         }
-        static void DeleteOldDB(ApplicationDbContext context)
-        {
-            context.Database.EnsureDeleted();
-            Console.WriteLine("DATABASE DELETED.");
-        }
-        static void CreateAndPopulateDB(ApplicationDbContext context)
-        {
-            try
-            {
-                context.Database.EnsureCreated();
-                context.Database.ExecuteSqlRaw(File.ReadAllText(@"SQL Scripts\Load Data.sql"));
-                context.SaveChanges();
-                Console.WriteLine("DATABASE POPULATED SUCCESFULLY.");
-            }
-            catch (IOException)
-            {
-                Console.WriteLine("Unable to read SQL file.");
-            }
-            catch
-            {
-                Console.WriteLine("Database already populated. Aborting.");
-            }
-        }
         static void Create(ApplicationDbContext context)
         {
             Console.WriteLine("Hello, dearest new customer!");
@@ -201,6 +178,29 @@ namespace LabWork_Entity_Framework
 
             Console.WriteLine("\nEnter anything to quit.");
             Console.ReadLine();
+        }
+        static void DeleteOldDB(ApplicationDbContext context)
+        {
+            context.Database.EnsureDeleted();
+            Console.WriteLine("DATABASE DELETED.");
+        }
+        static void CreateAndPopulateDB(ApplicationDbContext context)
+        {
+            try
+            {
+                context.Database.EnsureCreated();
+                context.Database.ExecuteSqlRaw(File.ReadAllText(@"SQL Scripts\Load Data.sql"));
+                context.SaveChanges();
+                Console.WriteLine("DATABASE POPULATED SUCCESFULLY.");
+            }
+            catch (IOException)
+            {
+                Console.WriteLine("Unable to read SQL file.");
+            }
+            catch
+            {
+                Console.WriteLine("Database already populated. Aborting.");
+            }
         }
         static string GenerateYearlyReport(ApplicationDbContext context, int year)
         {
